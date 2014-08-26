@@ -66,9 +66,9 @@ This will cost you around $5.00 + tax for the entire month.
     - Set my password as `BigData2014!`, I will change it as necessary.
 - Now we need to edit the `sudoers` file. `Sudoers` is a file that allows regular users to run commands as "root" as long as an entry is placed correctly in the file. 
 - "Your-new-user" and "griffin" both need to be added:
-    - A comprehensive tutorial about suders is available [Here](https://help.ubuntu.com/community/Sudoers).
+    - A comprehensive tutorial about sudoers is available [Here](https://help.ubuntu.com/community/Sudoers).
     - Shortcut version:
-        - (As root) $ nano /etc/suders
+        - (As root) $ nano /etc/sudoers
         - Edit sudoers and add two lines using the following example:
 
 ```txt

@@ -94,13 +94,6 @@ $ sudo apt-get upgrade
 # install git a distributed version control system  
 $ sudo apt-get install git
 
-# install node.js a javascript framework that includes many addons we will use
-$ sudo apt-get install node
-
-# install node package manager
-$ sudo apt-get install npm
-
-
 ```
 
 #### 6. Testing Your Server

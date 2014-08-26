@@ -27,7 +27,7 @@ Book available here: http://www.coursesmart.com/IR/970041/9780133805543?__hdv=6.
 | # | Due              | Category           | Description               |
 |---|------------------|--------------------|---------------------------|
 | 1 | 28 Aug 2014 @ 1200 | [Assignment 1][1]  | [Register w/ Github][1]   |
-| 2 | 31 Aug 2014 @ 2359 | [Assignment 2][5]  | [Digital Ocean Server][5] |
+| 2 | 31 Aug 2014 @ 2359 | [Assignment 2][2]  | [Digital Ocean Server][2] |
 
 [1]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-1.md "Assignment 1"
-[5]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-2.md "Assignment 2"
+[2]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-2.md "Assignment 2"

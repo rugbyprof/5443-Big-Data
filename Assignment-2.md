@@ -102,7 +102,7 @@ $ sudo apt-get install git
 
 #### 7. Email me your Ip address
 
-- Send me an email with the following information:
+- In an email with the subject: "5443 IP Info"
 
 >- Your Name
 - Your github username

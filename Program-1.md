@@ -26,7 +26,7 @@ formats:
 As seen in the directory listing above we have the following files:
 
 | Type | Description                                  | Size    |
-|------|----------------------------------------------|---------|
+|------|----------------------------------------------|--------:|
 | csv  |Comma seperated values                        | 484MB   |
 | sql  |Structured Query Language (insert statements) | 467MB   | 
 | xml  |EXtensible Markup Language                    | 2.3GB   |

@@ -3,7 +3,7 @@
 
 ### Basic Idea
 In class we've mainly discussed basic generalities describing and dealing with the whole "Big Data" concept.
-So, for this programming project, we will get a small taste of dealing with big data. More specifically we
+So, for this programming project, we will get a small taste of dealing with  (relatively) big data. More specifically we
 will deal with converting a large set of data from one format to another. 
 
 In an academic setting, it's very typical that programming assignments may solve difficult problems, but solve

@@ -137,6 +137,8 @@ I want to know:
 - What language you choose, and why.
 - What file you choose to convert, and why.
 - I want to know the size of the completed json.
+
+I also want to know:
 - I want to know which of the files compresses the best using zip and gzip.
 - I want you to write up your findings using `Markdown` and place them in a file called `Program1-Writeup.md`
 

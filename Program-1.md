@@ -140,7 +140,7 @@ I want to know:
 
 I also want to know:
 - I want to know which of the files compresses the best using zip and gzip.
-- I want you to write up your findings using `Markdown` and place them in a file called `Program1-Writeup.md`
+- I want you to write up your findings for this entire project using `Markdown` and place them in a file called `Program1-Writeup.md`
 
 I will discuss much of this in class on Thursday, but you should get started now.
 

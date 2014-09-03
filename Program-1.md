@@ -1,5 +1,5 @@
-# Not Done
 ## Program 1 - Getting Our Feet Wet
+#### Due: Soon
 
 ### Basic Idea
 In class we've mainly discussed basic generalities describing and dealing with the whole "Big Data" concept.
@@ -40,44 +40,109 @@ you can use the following link:
 
 http://cs.mwsu.edu/~griffin/5443-BigData
 
-## Requirements
+## Part One
 
-### Part One
+- Create a fodler in your `/var/www/html` directory called `BigData`
+- Create a folder in your `/var/www/html/BigData` directory called `GpsData`
+- Copy the files from http://cs.mwsu.edu/~griffin/5443-BigData to your folder.
 
-Convert any one of the above files into a `json` representation. Do this on your own server using the `python` 
-scripting language. I realize that most of you have zero `python` experience, but that's the fun of it.
+How can this be done? Here's two ways (run them from the command line inside your folder):
 
-Start with installing python:
+- `curl -o GpsFilePoints.csv http://cs.mwsu.edu/~griffin/5443-BigData/GpsFilePoints.csv`
+- `wget http://cs.mwsu.edu/~griffin/5443-BigData/GpsFilePoints.csv -O GpsFilePoints.csv`
 
-```bash
-sudo apt-get install python3
+- Repeat for each file. I'll show you how to write a script in class to automate it for all files.
+- We will also discuss ways to speed this whole process up.
+- When finished you should have a directory listing in `/var/www/html/BigData/GpsData`  similar to the one above.
+
+## Part Two
+
+Convert any one of the above files into a `json` representation.
+
+### Json
+
+Here is an example of a json object. It's stored in plain text (ascii or utf8):
+
+```json
+{
+  "Lat": 33.847520500,
+  "Lon": -98.567898800,
+  "Time": 1249039453,
+}
+```
+- The `{ }` define an "object".
+- The `"Time" : 1249039453` is an example of a key value pair, which is the backbone of json.
+- So an "object" is a set of "key value pairs" contained within curly braces.
+
+What if you wanted an array of items?
+- `[ ]` Square brackets define an array.
+- `[1,2,3,4,5]` is an array of the values 1 through 5.
+
+What if you wanted an array of objects?
+
+Here is an array of two location objects:
+```json
+[
+    {
+      "Lat": 33.847520500,
+      "Lon": -98.567898800,
+      "Time": 1249039453,
+    }
+    ,
+    {
+      "Lat": 33.84752123440,
+      "Lon": -98.567234898,
+      "Time": 1249039455,
+    }
+]
+```
+You can combine `{}` (objects) `key:value` and `[ ]` arrays in an infinite number of possibilities allowing it to describe complex data. 
+
+Here's an example of the top three sections of a sudoku board:)
+
+```json
+[
+    [
+     [3,9,1],
+     [4,8,7],
+     [6,5,2]
+    ]
+    ,
+    [
+     [2,8,6],
+     [3,5,9],
+     [7,1,4]
+    ]
+    ,
+    [
+     [5,7,4],
+     [1,2,6],
+     [8,3,9]
+    ]
+]
+
 ```
 
-Here is an example python snippet to convert from csv to json:
+What if you weren't sure if your json is valid?
 
-```python
-import csv
-import json
+- You can go here: http://jsonlint.com/ and it will validate json for you.
 
-csvfile = open('file.csv', 'r')
-jsonfile = open('file.json', 'w')
+### The conversion
 
-fieldnames = ("FirstName","LastName","IDNumber","Message")
-reader = csv.DictReader( csvfile, fieldnames)
-for row in reader:
-    json.dump(row, jsonfile)
-    jsonfile.write('\n')
-```
+- Create a folder in your `/var/www/html/BigData` folder called `Program1`
+- Place all of your scripting in here to complete the conversion.
+- I don't care how you get it done. First, I started giving an example to help with the solution, but now I'm more interested in your process than the solution. So ... no help.
 
-#### Scenario
+I want to know:
+- What language you choose, and why.
+- What file you choose to convert, and why.
+- I want to know the size of the completed json.
+- I want to know which of the files compresses the best using zip and gzip.
+- I want you to write up your findings using `Markdown` and place them in a file called `Program1-Writeup.md`
 
-Your a programmer that needs to simply transmit the 
+I will discuss much of this in class on Thursday, but you should get started now.
 
-In the following scenario, 
 
-- Describe the benefits of each file format. 
-- Give examples of when a file format would be detrimental. 
-- Is any one format more of a robust solution than the others.
  
 
  

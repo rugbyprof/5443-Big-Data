@@ -36,17 +36,17 @@ Book available here: http://www.coursesmart.com/IR/970041/9780133805543?__hdv=6.
 
 Name               | Email                        | Ip Address      |
 -------------------|------------------------------|-----------------|
-kiran tej          | <kirantej308@gmail.com>      | 198.199.95.27   | kirantejbadana
-akhilesh kalaru    | <akhileshkalaru@gmail.com>   | 162.243.135.49  | akhileshkalaru
-vinesh Thummala    | <vineshthummala@gmail.com>   | 104.131.23.209  | vineshthummala
-Sai Sharan Sampati | <sssampati0225@my.mwsu.edu>  | 104.131.135.146 | hakuva
-Ankur Patel        | <aku0004@gmail.com>          | 162.243.130.154 | aku0004
-vikas kumar Sriram | <vikaskumarsriram@gmail.com> | 107.170.187.103 | VikasKumarSriram
-Rebecca Roberts    | <robertsrebeccam@gmail.com>  | 107.170.206.244 | rmroberts
-Shylu Praneeth     | <shylupraneeth8@gmail.com>   | 104.131.22.139  | shylupraneeth
-saboor siddiqie    | sas_saboor@outlook.com     | 104.131.22.188  | Saboor
-Vipin Deshmukh     | <deshmukhvipin@gmail.com>    | 107.170.206.43  | vipin1109
-Julius Adeyemi     | <crownfitjoa@yahoo.com>      | 104.131.136.216 | crownfits
-vikas kumar Sriram | <vikaskumarsriram@gmail.com> | 107.170.187.103 | VikasKumarSriram
+kiran tej          | kirantej308@gmail.com        | 198.199.95.27   | kirantejbadana
+akhilesh kalaru    | akhileshkalaru@gmail.com     | 162.243.135.49  | akhileshkalaru
+vinesh Thummala    | vineshthummala@gmail.com     | 104.131.23.209  | vineshthummala
+Sai Sharan Sampati | sssampati0225@my.mwsu.edu    | 104.131.135.146 | hakuva
+Ankur Patel        | aku0004@gmail.com            | 162.243.130.154 | aku0004
+vikas kumar Sriram | vikaskumarsriram@gmail.com   | 107.170.187.103 | VikasKumarSriram
+Rebecca Roberts    | robertsrebeccam@gmail.com    | 107.170.206.244 | rmroberts
+Shylu Praneeth     | shylupraneeth8@gmail.com     | 104.131.22.139  | shylupraneeth
+saboor siddiqie    | sas_saboor@outlook.com       | 104.131.22.188  | Saboor
+Vipin Deshmukh     | deshmukhvipin@gmail.com      | 107.170.206.43  | vipin1109
+Julius Adeyemi     | crownfitjoa@yahoo.com        | 104.131.136.216 | crownfits
+vikas kumar Sriram | vikaskumarsriram@gmail.com   | 107.170.187.103 | VikasKumarSriram
 
 

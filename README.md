@@ -34,20 +34,22 @@ Book available here: http://www.coursesmart.com/IR/970041/9780133805543?__hdv=6.
 
 ## Course Members
 
-Name               | Email                        | Ip Address      |
--------------------|------------------------------|-----------------|
-Akhilesh kalaru    | akhileshkalaru@gmail.com     | 162.243.135.49  | akhileshkalaru
-Ankur Patel        | aku0004@gmail.com            | 162.243.130.154 | aku0004
-Julius Adeyemi     | crownfitjoa@yahoo.com        | 104.131.136.216 | crownfits
-Kiran tej          | kirantej308@gmail.com        | 198.199.95.27   | kirantejbadana
-Rebecca Roberts    | robertsrebeccam@gmail.com    | 107.170.206.244 | rmroberts
-Sai Sharan Sampati | sssampati0225@my.mwsu.edu    | 104.131.135.146 | hakuva
-Shylu Praneeth     | shylupraneeth8@gmail.com     | 104.131.22.139  | shylupraneeth
-Saboor siddiqie    | sas_saboor@outlook.com       | 104.131.22.188  | Saboor
-Vikas kumar Sriram | vikaskumarsriram@gmail.com   | 107.170.187.103 | VikasKumarSriram
-Vinesh Thummala    | vineshthummala@gmail.com     | 104.131.23.209  | vineshthummala
-Vipin Deshmukh     | deshmukhvipin@gmail.com      | 107.170.206.43  | vipin1109
-Yaswanth Amaraneni | yaswanth.amarneni@gmail.com  | 104.131.139.49  | Yaswanth0529
 
-
+First       | Last          | Email                         | Github           | Ip 
+------------| --------------|-------------------------------|------------------|-----------------
+Julius      | Adeyemi       | crownfitjoa@yahoo.com         | crownfits        | 104.131.136.216
+Yaswanth    | Amaraneni     | yaswanth2905@gmail.com        | Yaswanth0529     | 104.131.139.49
+Kiran       | Tej Badana    | kirantej308@gmail.com         | kirantejbadana   | 198.199.95.27
+Vipin       | Deshmukh      | deshmukhvipin@gmail.com       | vipin1109        | 107.170.206.43
+Andrew      | Henderson     | henderson_andrew@hotmail.com  | GTH-Andrew       | 192.241.190.225
+Akhilesh    | Kalaru        | akhileshkalaru@gmail.com      | akhileshkalaru   | 162.243.135.49
+Manish      | Reddy Korenda | kmanish1191@gmail.com         | reddymk          | 178.62.155.206
+Ankur       | Patel         | aku0004@gmail.com             | aku0004          | 162.243.130.154
+Rebecca     | Roberts       | robertsrebeccam@gmail.com     | rmroberts        | 107.170.206.244
+Sai Sharan  | Sampati       | sampatisai93@gmail.com        | hakuva           | 104.131.135.146
+Saboor      | Siddiqie      | saboor.vr439@gmail.com        | Saboor           | 104.131.22.188
+Vikas       | Sriram        | vikaskumarsriram@gmail.com    | VikasKumarSriram | 107.170.187.103
+Vinesh      | Thummala      | vineshthummala@gmail.com      | vineshthummala   | 104.131.23.209
+Shylendra   | Vanga         | shylupraneeth8@gmail.com      | shylupraneeth    | 104.131.22.139
+Ramakrishna | Veeravalli    | veeravalliramakrish@gmail.com | veeravallir      | 104.131.37.223
 

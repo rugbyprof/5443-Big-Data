@@ -57,8 +57,7 @@ How can this be done? Here's two ways (run them from the command line inside you
 
 ## Part Two
 
-- What would you do to convert any of the above files into a `json` representation? You do not have to write the code or find a library to do this, but I want you to explain your approach.
-- Even though you do not have to implement this, I want you to assume that you would have to write the code from scratch. So, based on this fact, which format would you choose to convert from?
+A little explanation of JSON.
 
 ### Json
 
@@ -136,14 +135,17 @@ What if you weren't sure if your json is valid?
 
 ### The write up
 
+- Explain how you would convert one of the given file formats into a json representation.
+- Assume that you would be writing the code from scratch, and not using a library. This should effect your decision!
+
 I want to know:
-- What language you choose, to do your conversion and why.
+- What programming language you chose, to do your conversion and why.
 - What file you choose to convert from, and why.
 - ~~I want to know the size of the completed json.~~
 
-I also want to know:
-- I want to know which of the files compresses the best using zip and gzip.
-- I want you to write up your findings for this entire project using `Markdown` and place them in a file called `Program1-Writeup.md`
+I'm also curious about how well each file compresses, so in your writeup, include which of the files compresses the best using zip and gzip.
+
+I want you to write up your findings for this entire project using `Markdown` and place them in a file called `Program1-Writeup.md`
 
 
 

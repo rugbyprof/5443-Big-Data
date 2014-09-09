@@ -1,5 +1,5 @@
 ## Program 1 - Getting Our Feet Wet
-#### Due: Soon
+#### Due: Thursday Sep 
 
 ### Basic Idea
 In class we've mainly discussed basic generalities describing and dealing with the whole "Big Data" concept.

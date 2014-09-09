@@ -57,7 +57,8 @@ How can this be done? Here's two ways (run them from the command line inside you
 
 ## Part Two
 
-Convert any one of the above files into a `json` representation.
+- What would you do to convert any of the above files into a `json` representation? You do not have to write the code or find a library to do this, but I want you to explain your approach.
+- Even though you do not have to implement this, I want you to assume that you would have to write the code from scratch. So, based on this fact, which format would you choose to convert from?
 
 ### Json
 
@@ -127,22 +128,24 @@ What if you weren't sure if your json is valid?
 
 - You can go here: http://jsonlint.com/ and it will validate json for you.
 
-### The conversion
+### ~~The conversion~~
 
 - Create a folder in your `/var/www/html/BigData` folder called `Program1`
 - Place all of your scripting in here to complete the conversion.
 - I don't care how you get it done. First, I started giving an example to help with the solution, but now I'm more interested in your process than the solution. So ... no help.
 
+### The write up
+
 I want to know:
-- What language you choose, and why.
-- What file you choose to convert, and why.
-- I want to know the size of the completed json.
+- What language you choose, to do your conversion and why.
+- What file you choose to convert from, and why.
+- ~~I want to know the size of the completed json.~~
 
 I also want to know:
 - I want to know which of the files compresses the best using zip and gzip.
 - I want you to write up your findings for this entire project using `Markdown` and place them in a file called `Program1-Writeup.md`
 
-I will discuss much of this in class on Thursday, but you should get started now.
+
 
 
  

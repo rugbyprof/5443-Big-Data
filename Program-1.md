@@ -143,7 +143,7 @@ I want to know:
 - What file you choose to convert from, and why.
 - ~~I want to know the size of the completed json.~~
 
-I'm also curious about how well each file compresses, so in your writeup, include which of the files compresses the best using zip and gzip.
+I'm also curious about how well each file compresses, so in your writeup, include which of the files compresses the best using zip and gzip. Include the original size and the compressed size and the percent compressed.
 
 I want you to write up your findings for this entire project using `Markdown` and place them in a file called `Program1-Writeup.md`
 

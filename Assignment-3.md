@@ -10,7 +10,7 @@ to install hadoop on your server.
 #### Questions
 
 - How do you add nodes to your Hadoop cluster?
-- Can everyone in class add the remaining members of the class to thier cluster? This asks the question: "Can everyone simultaneously run thier own Hadoop cluster, AND be a slave (worker) in another Hadoop cluster?" This would obviously never be ideal in the real world, but can this work as a model in our BigData course?
+- Can everyone in class add the remaining members of the class to thier cluster? This asks the question: "Can everyone simultaneously run thier own Hadoop cluster, AND be a slave (worker) in another Hadoop cluster?" This would obviously never be ideal in the real world, but can this work as a model in our BigData course? Otherwise, you will be running your assignments on a single server, which doesn't fit with the whole `Big Data` theme.
 
 
-Write your answer up in 
+Write your answer up in a file named: `Assignment3-Writeup.md` and put it in your repository. 

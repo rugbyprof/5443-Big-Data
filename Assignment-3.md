@@ -8,6 +8,12 @@ Follow the steps in the tutorial [here](https://www.digitalocean.com/community/t
 
 -----
 
+When your done, take a screen shot and put it in your write up.
+
+Example:
+
+![](http://f.cl.ly/items/2J031W3S191f2k3I2J1h/screen_hadoop.png)
+
 #### Questions
 
 - How do you add nodes to your Hadoop cluster?

@@ -1,5 +1,5 @@
 ### Assignment 3 - Installing Hadoop.
-#### Due: Mon Sep 15<sup>th</sup> by class time.
+#### Due: Tue Sep 16<sup>th</sup> by class time.
 
 #### Install Hadoop
 -----

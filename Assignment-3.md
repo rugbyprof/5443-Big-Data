@@ -8,7 +8,8 @@ Follow the steps in the tutorial [here](https://www.digitalocean.com/community/t
 
 -----
 
-When your done, take a screen shot and put it in your write up.
+- When your done, do a `whereis hadoop`. 
+- Take a screen shot and put it in your write up.
 
 Example:
 

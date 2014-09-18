@@ -1,7 +1,7 @@
 ### Assignment 4 - Key Value Stores / Document Stores
 
 
-#### Quiz on Tue Sep 23<sup>th</sup>
+#### Quiz on Tue Sep 23<sup>th</sup> 
 -----
 
 Below are the highlights of tutorials that cover `Redis` and `MongoDB`. These are a couple of popular `noSql` databases. Since `SQL` typically corresponds with `Relational Databases`, and this type of database is not known for its scalability, we will look into `Redis`: A key/value store database, and `MongoDB`: a document database, both of which don't use `SQL` to query thier data.
@@ -13,7 +13,12 @@ Here are the links to each tutorial:
 
 I've provided the highlights below, mostly so you know what to study for our quiz on Tuesday the 23<sup>rd</sup>. We will meet in room 103 and you will work directly on your server.
 
+Prior to Tuesday, you will need to install MongoDB and Redis on your server. 
+
 ## MONGODB
+
+- http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+- http://docs.mongodb.org/manual/tutorial/getting-started/
 
 ### Json Objects
 - {} = object
@@ -39,6 +44,8 @@ I've provided the highlights below, mostly so you know what to study for our qui
 -----
 
 ## REDIS
+
+- https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis
 
 ### Lists
 - http://redis.io/commands#list

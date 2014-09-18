@@ -11,9 +11,9 @@ Here are the links to each tutorial:
 - http://try.mongodb.org/
 - http://try.redis.io/
 
-I've provided the highlights below, mostly so you know what to study for our quiz on Tuesday the 23<sup>rd</sup>. We will meet in room 103 and you will work directly on your server.
+I've provided the highlights below, mostly so you know what to study for our quiz on Tuesday the 23<sup>rd</sup>. We will meet in room 103 and you will work directly on your server. I will have you load some data, then query that data using either MongoDB or Redis or both. The query's will not get complex, but you should have an idea of what each of the key words listed below are.
 
-Prior to Tuesday, you will need to install MongoDB and Redis on your server. We will complete an assignment pertaining to one or both of these `NoSql` databases. 
+Prior to Tuesday, you will need to install MongoDB and Redis on your server.Links provided to both installation tutorials below.
 
 ## MONGODB
 

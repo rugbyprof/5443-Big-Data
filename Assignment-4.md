@@ -21,7 +21,7 @@ I've provided the highlights below, mostly so you know what to study for our qui
 - var a = {"fname":"Joe","lname":"Smith","age":20,"languages":['C++','Ruby','Python','Php']}
 
 
-### DB 
+### DB. Commands
 - .save()
 - .find()
   - $gt
@@ -36,8 +36,9 @@ I've provided the highlights below, mostly so you know what to study for our qui
   - $pull
 - .remove()
 
-## REDIS
+-----
 
+## REDIS
 
 ### Lists
 - http://redis.io/commands#list

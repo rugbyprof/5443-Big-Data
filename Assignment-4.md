@@ -4,20 +4,20 @@
 #### Quiz on Tue Sep 23<sup>th</sup>
 -----
 
-Below are the highlights of tutorials that cover `Redis` and `MongoDB`. These are a couple of popular `noSql` databases. Since `SQL` typically corresponds with `Relational Databases`, and this type of database is not known for its scalability, we will look into `Redis`: A key/value store database, and `MongoDB`: a document database, both of which don't use `SQL`.
+Below are the highlights of tutorials that cover `Redis` and `MongoDB`. These are a couple of popular `noSql` databases. Since `SQL` typically corresponds with `Relational Databases`, and this type of database is not known for its scalability, we will look into `Redis`: A key/value store database, and `MongoDB`: a document database, both of which don't use `SQL` to query thier data.
 
 Here are the links to each tutorial:
 
 - http://try.mongodb.org/
 - http://try.redis.io/
 
-I've provided the highlights
+I've provided the highlights below, mostly so you know what to study for our quiz on Tuesday the 23<sup>rd</sup>. We will meet in room 103 and you will work directly on your server.
 
 ## MONGODB
 
-
-
-### Js Objects
+### Json Objects
+- {} = object
+- [] = array
 - var a = {"fname":"Joe","lname":"Smith","age":20,"languages":['C++','Ruby','Python','Php']}
 
 

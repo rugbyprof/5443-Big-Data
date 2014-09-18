@@ -13,7 +13,7 @@ Here are the links to each tutorial:
 
 I've provided the highlights below, mostly so you know what to study for our quiz on Tuesday the 23<sup>rd</sup>. We will meet in room 103 and you will work directly on your server.
 
-Prior to Tuesday, you will need to install MongoDB and Redis on your server. 
+Prior to Tuesday, you will need to install MongoDB and Redis on your server. We will complete an assignment pertaining to one or both of these `NoSql` databases. 
 
 ## MONGODB
 

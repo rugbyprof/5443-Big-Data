@@ -1,8 +1,10 @@
 ### Assignment 4 - Key Value Stores / Document Stores
-#### Due: Tue Sep 23<sup>th</sup> by class time.
 
-#### Learning about key value stores
+
+#### Quiz on Tue Sep 23<sup>th</sup>
 -----
+
+Below are the highlights to 2 tutorials that cover `Redis` and `MongoDB`. These are a couple of popular `noSql` databases. Since `SQL` typically corresponds with `Relational Databases`, and this type of database is not known for its scalability, we will look into `Redis`: A key/value store database, and `MongoDB`: a document database.
 
 ## MONGODB
 

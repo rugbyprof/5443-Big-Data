@@ -31,10 +31,10 @@ Book available here: http://www.coursesmart.com/IR/970041/9780133805543?__hdv=6.
 | 3 | 28 Aug 2014 @ 1200 | [Assignment 3][3]  | [Register w/ Github][3]   |
 | 4 | 31 Aug 2014 @ 2359 | [Assignment 4][4]  | [Digital Ocean Server][4] |
 
-[1]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-1.md "Assignment 1"
-[2]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-2.md "Assignment 2"
-[3]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-3.md "Assignment 3"
-[4]: https://github.com/rugbyprof/4443-Internet-Programming/blob/master/Assignment-4.md "Assignment 4"
+[1]: https://github.com/rugbyprof/5443-Big-Data/blob/master/Assignment-1.md "Assignment 1"
+[2]: https://github.com/rugbyprof/5443-Big-Data/blob/master/Assignment-2.md "Assignment 2"
+[3]: https://github.com/rugbyprof/5443-Big-Data/blob/master/Assignment-3.md "Assignment 3"
+[4]: https://github.com/rugbyprof/5443-Big-Data/blob/master/Assignment-4.md "Assignment 4"
 
 ## Course Members
 

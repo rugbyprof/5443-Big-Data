@@ -21,7 +21,7 @@ $ useradd redis
     - Display the list of unique characters removed (I think it's one).
 - Thier are a couple of snippets at the _bottom_. One in Php and one in Python. Neither is a solution, just some code to give you an idea of where to start.
 
-Below are some helpful resources:
+Directly below are some helpful resources:
 
 ### Installing Redis
 

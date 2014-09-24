@@ -19,7 +19,8 @@ $ useradd redis
     - Display how many lines processed in total.
     - Display how many characters removed.
     - Display the list of unique characters removed (I think it's one).
-
+- Thier are a couple of snippets at the _bottom_. One in Php and one in Python. Neither is a solution, just some code to give you an idea of where to start.
+- 
 Below are some helpful resources:
 
 ### Installing Redis
@@ -66,6 +67,10 @@ sudo make install
     - split -l 500 myfile segment
 - Json validator web site
     - http://jsonlint.com/
+- sed command to print line out of middle of file
+    - http://www.commandlinefu.com/commands/view/3802/to-print-a-specific-line-from-a-file
+
+### Php Helper Snippet 
 
 ```php
 <?php
@@ -144,4 +149,17 @@ function JsonError($val){
     }
 }
 ```
-http://www.commandlinefu.com/commands/view/3802/to-print-a-specific-line-from-a-file
+### Python Helper Snippet
+
+```py
+import string
+
+# Open file for reading
+f = open('nutrition.json', 'r')
+
+# Read one line from file
+s = f.readline()
+
+# Filter that line, removing characters
+filter(lambda x: x in string.printable, s)
+```

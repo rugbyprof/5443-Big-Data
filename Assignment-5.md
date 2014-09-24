@@ -71,6 +71,7 @@ sudo make install
     - http://www.commandlinefu.com/commands/view/3802/to-print-a-specific-line-from-a-file
 - Ptyhon examples
     - http://stackoverflow.com/questions/8689795/python-remove-non-ascii-characters-but-leave-periods-and-spaces
+    
 ### Php Helper Snippet 
 
 ```php
@@ -150,6 +151,7 @@ function JsonError($val){
     }
 }
 ```
+
 ### Python Helper Snippet
 
 ```py

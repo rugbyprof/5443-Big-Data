@@ -160,6 +160,7 @@ f = open('nutrition.json', 'r')
 # Read one line from file
 s = f.readline()
 
-# Filter that line, removing characters
+# Filter that line, removing non ascii characters
+# Doesn't identify which, just filters
 filter(lambda x: x in string.printable, s)
 ```

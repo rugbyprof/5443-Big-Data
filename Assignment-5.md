@@ -10,7 +10,7 @@ This is a small walk through that prepares us to use php to load json data into 
 $ useradd redis
 ```
 
-- In `/home/redis` create a folder called `data` and copy `nutrition.json` into that folder
+- In `/home/redis` create a folder called `data` and copy `nutrition.json` into that folder (http://107.170.214.232/nutrition.json)
 - You can split `nutrition.json` if you like, or leave it at `65mb`.
 - Create a script called `process_json.???` replacing the `???` with whatever scripting language you use (php, py, etc.) and place it in `/home/redis`.
 - When I run your script, it should process `nutrition.json` (or the smaller split files) and do the following:

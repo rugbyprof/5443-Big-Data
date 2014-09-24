@@ -69,7 +69,8 @@ sudo make install
     - http://jsonlint.com/
 - sed command to print line out of middle of file
     - http://www.commandlinefu.com/commands/view/3802/to-print-a-specific-line-from-a-file
-
+- Ptyhon examples
+    - http://stackoverflow.com/questions/8689795/python-remove-non-ascii-characters-but-leave-periods-and-spaces
 ### Php Helper Snippet 
 
 ```php

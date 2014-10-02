@@ -63,23 +63,25 @@ Loop through a python dictionary
 
 ### Redis commands via Python
 
-First you must import redis, and establish a link
-
 ```python
+#First you must import redis, and establish a link
 import redis
 r = redis.StrictRedis(host='localhost', port=6379, db=0)
 ```
+-----
 
 Given the following python dictionary:
 
+```python
 phone = {'griffin': 4439, 'stringfellow': 4139,'passos':4444,'donovan':4431,'johnson':4355,'simpson':4356,'wuthrich':4664, 'halverson':4988}
-
-#Set single key value
+```
+-----
 
 ```python
 #Set single key value
 r.set('griffin',phone['griffin'])
 ```
+-----
 
 ```python
 #Set multiple key values
@@ -87,17 +89,54 @@ for key in phone:
     r.set(key,phone[key])
 ```
 
+-----
+
 ```python
 #Get multiple values
 for key in phone:
     print r.get(key)
 ```
+-----
 
 ```python
-#Set multiple hash fields to multiple values
+#Set multiple hash fields to single key
 r.hmset('phone',phone)
 ```
 
+Given the following python dictionary:
+
+```python
+phonelist = {
+'cs':{'griffin': 4439, 'stringfellow':4139,'passos':4444,'donovan':4431,'johnson':4355,'simpson':4356},
+'bio':{'scales':5555,'Cook':5432,'Horner':5433,'Shipley':5987},
+'chem':{'halford':6754,'hanson':6887,'shao':6232}
+}
+```
+-----
+
+```python
+#Set multiple hash fields to multiple keys
+for key in phonelist:
+    r.hmset(key,phonelist[key])
+    
+r.hgetall('cs')
+```
+
+>output `{'griffin': '4439', 'stringfellow': '4139', 'johnson': '4355', 'donovan': '4431', 'passos': '4444', 'simpson': '4356'}`
+
+
+More advanced example
+
+```python
+#Set multiple hash fields to 2d hash
+for key in phonelist:
+    rediskey = "phone:"+key
+    db.hmset(key,phonelist[key]);
+```
+db.hmset("user:alex", JSON.stringify(jsonObj));
+
+
+#### Example from class
 
 ```python
 import redis

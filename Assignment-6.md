@@ -75,13 +75,11 @@ Given the following python dictionary:
 ```python
 phone = {'griffin': 4439, 'stringfellow': 4139,'passos':4444,'donovan':4431,'johnson':4355,'simpson':4356,'wuthrich':4664, 'halverson':4988}
 ```
------
 
 ```python
 #Set single key value
 r.set('griffin',phone['griffin'])
 ```
------
 
 ```python
 #Set multiple key values
@@ -89,19 +87,17 @@ for key in phone:
     r.set(key,phone[key])
 ```
 
------
-
 ```python
 #Get multiple values
 for key in phone:
     print r.get(key)
 ```
------
-
 ```python
 #Set multiple hash fields to single key
 r.hmset('phone',phone)
 ```
+
+-----
 
 Given the following python dictionary:
 
@@ -112,7 +108,6 @@ phonelist = {
 'chem':{'halford':6754,'hanson':6887,'shao':6232}
 }
 ```
------
 
 ```python
 #Set multiple hash fields to multiple keys
@@ -124,17 +119,30 @@ r.hgetall('cs')
 
 >output `{'griffin': '4439', 'stringfellow': '4139', 'johnson': '4355', 'donovan': '4431', 'passos': '4444', 'simpson': '4356'}`
 
+-----
 
 More advanced example
 
 ```python
-#Set multiple hash fields to 2d hash
+#Generate multiple hashes, and add keys to a set 
+#so we can retreive all later
+#add keys to a set 
 for key in phonelist:
     rediskey = "phone:"+key
-    db.hmset(key,phonelist[key]);
-```
-db.hmset("user:alex", JSON.stringify(jsonObj));
+    r.hmset(rediskey,phonelist[key])
+    r.sadd('phone',key)
+    
+keys = r.smembers(phone)
 
+for key in keys:
+    r.hgetall(key)
+```
+Output:
+```
+{'griffin': '4439', 'stringfellow': '4139', 'johnson': '4355', 'donovan': '4431', 'passos': '4444', 'simpson': '4356'}
+{'Cook': '5432', 'Horner': '5433', 'Shipley': '5987', 'scales': '5555'}
+{'hanson': '6887', 'halford': '6754', 'shao': '6232'}
+```
 
 #### Example from class
 

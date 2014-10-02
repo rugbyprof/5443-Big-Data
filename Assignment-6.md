@@ -25,14 +25,30 @@ to stop a process after an iteration or two.
 Python example of opening a file, read every line, printing every line
 
 ```python
-import string
-
 # Open file for reading
 f = open('nutrition.txt', 'r')
 
 # Read every line from file and print it
 for line in f:
     print line
+       
+```
+
+Python example of opening a file, read every line as json, printing it out nicely
+
+```python
+import json
+
+# Open file for reading
+f = open('nutrition.txt', 'r')
+
+# Read every line from file and print it
+for line in f:
+    #Read line in as json
+    dict = json.loads(line)
+    
+    #Print the line nicely formatted
+    print json.dumps(dict, sort_keys=True,indent=4, separators=(',', ': '))
        
 ```
 
@@ -45,15 +61,41 @@ Loop through a python dictionary
         print key,'=>',dict[key],type(dict[key])
 ```
 
-Print json nicely with line returns and indentation
+### Redis commands via Python
+
+First you must import redis, and establish a link
 
 ```python
-    #Print the line nicely formatted
-    print json.dumps(line, sort_keys=True,indent=4, separators=(',', ': '))
+import redis
+r = redis.StrictRedis(host='localhost', port=6379, db=0)
+```
+
+Given the following python dictionary:
+
+phone = {'griffin': 4439, 'stringfellow': 4139,'passos':4444,'donovan':4431,'johnson':4355,'simpson':4356,'wuthrich':4664, 'halverson':4988}
+
+#Set single key value
+
+```python
+#Set single key value
+r.set('griffin',phone['griffin'])
 ```
 
 ```python
-#r.hmset(line['_id'],line)
+#Set multiple key values
+for key in phone:
+    r.set(key,phone[key])
+```
+
+```python
+#Get multiple values
+for key in phone:
+    print r.get(key)
+```
+
+```python
+#Set multiple hash fields to multiple values
+r.hmset('phone',phone)
 ```
 
 

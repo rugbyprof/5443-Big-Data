@@ -1,5 +1,13 @@
 ## File Processing with Redis
 
+### Commands
+
+- redis-cli 
+    - Opens the command line interface to redis.
+- info
+    - Gives information about server including disk usage.
+- flushall
+    - Cleans out the entire database ! 
 
 ```python
 import redis

@@ -13,7 +13,7 @@
 ### Redis keys
 
 A not on naming conventions for keys in redis taken from [here](http://redis.io/topics/data-types-intro):
->Redis keys are binary safe, this means that you can use any binary sequence as a key, from a string like "foo" to the content of a JPEG file. The empty string is also a valid key.
+>Redis keys are binary safe, this means that you can use any binary sequence as a key, from a string like "foo" to the content of a JPEG file. The empty string is also a valid key.<br>
 __A few other rules about keys:__
 - Too long keys are not a good idea, for instance a key of 1024 bytes is not a good idea not only memory-wise, but also because the lookup of the key in the dataset may require several costly key-comparisons. Even when the task at hand is to match the existence of a big value, to resort to hashing it (for example with SHA1) is a better idea, especially from the point of view of memory and bandwidth.
 - Too short keys are often not a good idea. There is little point in writing "u1000flw" as key if you can write instead "user:1000:followers", the latter is more readable and the added space is little compared to the space used by the key object itself and the value object. However it is not possible to deny that short keys will consume a bit less memory. Your job is to find the right balance.

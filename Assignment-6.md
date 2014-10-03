@@ -25,21 +25,25 @@ Output:
 ##### 2)
 
 - How many unique nutrients are there?
+
 Output:
 >Unique nutrients: _xxxxx_
 
 ##### 3)
 - What are the top 5 most commonly occuring nutrient?
+
 Output:
 > - 1 _____________ occurs _xxx_ number of times.
 > - 2 _____________ occurs _xxx_ number of times.
-> ...
+> - ...
 > - 5 _____________ occurs _xxx_ number of times.
 
 
+##### 4)
+- What percentage of all foods contain this nutrient?
 
-4. What percentage of all foods contain this nutrient?
-
+Output:
+> __________ occurs in _x_% number if items.
 
 
 

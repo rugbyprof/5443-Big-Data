@@ -12,7 +12,7 @@
 
 ### Redis keys
 
-A not on naming conventions for keys in redis taken from [here](http://redis.io/topics/data-types-intro):
+A note on naming conventions for keys in redis. Taken from [here](http://redis.io/topics/data-types-intro):
 >Redis keys are binary safe, this means that you can use any binary sequence as a key, from a string like "foo" to the content of a JPEG file. The empty string is also a valid key.<br>
 __A few other rules about keys:__
 - Too long keys are not a good idea, for instance a key of 1024 bytes is not a good idea not only memory-wise, but also because the lookup of the key in the dataset may require several costly key-comparisons. Even when the task at hand is to match the existence of a big value, to resort to hashing it (for example with SHA1) is a better idea, especially from the point of view of memory and bandwidth.
@@ -183,7 +183,4 @@ for line in f:
     	#Push that hash onto a list with 'key' = 'tagname'
         r.rpush(nut['tagname'],nut)
         
-
-    
-
 ```

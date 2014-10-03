@@ -43,11 +43,11 @@ As a help to you, I created this small subset of the nutrients file [here](http:
 
 
 ##### 4)
-- What percentage of all foods contain this nutrient?
+- Given a specific nutrient, what percentage of food items contain this nutrient?
 
 >Output:
 >
-> __________ occurs in _x_% number if items.
+> __________ occurs in _x_% number if food items.
 
 
 

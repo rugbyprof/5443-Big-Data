@@ -1,4 +1,3 @@
-#### Not Complete
 ## File Processing with Redis
 
 ### Commands

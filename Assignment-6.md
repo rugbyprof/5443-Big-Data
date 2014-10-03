@@ -10,7 +10,15 @@
 - `flushall`
     - Cleans out the entire database ! 
 
+### Redis keys
 
+A not on naming conventions for keys in redis taken from [here](http://redis.io/topics/data-types-intro):
+>Redis keys are binary safe, this means that you can use any binary sequence as a key, from a string like "foo" to the content of a JPEG file. The empty string is also a valid key.
+A few other rules about keys:
+Too long keys are not a good idea, for instance a key of 1024 bytes is not a good idea not only memory-wise, but also because the lookup of the key in the dataset may require several costly key-comparisons. Even when the task at hand is to match the existence of a big value, to resort to hashing it (for example with SHA1) is a better idea, especially from the point of view of memory and bandwidth.
+Too short keys are often not a good idea. There is little point in writing "u1000flw" as key if you can write instead "user:1000:followers", the latter is more readable and the added space is little compared to the space used by the key object itself and the value object. However it is not possible to deny that short keys will consume a bit less memory. Your job is to find the right balance.
+Try to stick with a schema. For instance "object-type:id" can be a nice idea, like in "user:1000". Dots or dashes are often used for multi-words fields, like in "comment:1234:reply.to" or "comment:1234:reply-to".
+The maximum allowed key size is 512 MB.
 
 Python will kill process when `sys.exit(0)` encountered. This can be used for testing purposes 
 to stop a process after an iteration or two.
@@ -125,15 +133,17 @@ More advanced example
 
 ```python
 #Generate multiple hashes, and add keys to a set 
-#so we can retreive all later
-#add keys to a set 
+#so we can retreive all later 
 for key in phonelist:
     rediskey = "phone:"+key
     r.hmset(rediskey,phonelist[key])
     r.sadd('phone',key)
-    
-keys = r.smembers(phone)
 
+#get all the members out of the phone set
+#which is all the keys we used
+keys = r.smembers('phone')
+
+#Use those keys in the 'phone' set to retreive the data from our hash
 for key in keys:
     r.hgetall(key)
 ```

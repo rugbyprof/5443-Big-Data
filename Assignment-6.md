@@ -50,6 +50,9 @@ As a help to you, I created this small subset of the nutrients file [here](http:
 > __________ occurs in _x_% number if food items.
 
 
+#### 5)
+
+- This problem is more about size of the database depending on how data is stored. So I will give you instructions for storing the data in two ways. I want the size of the data base on disk (remember info && human readable). You will also need to make sure you run `flushall` before each loading.
 
 
 

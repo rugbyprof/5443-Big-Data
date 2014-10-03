@@ -52,8 +52,16 @@ As a help to you, I created this small subset of the nutrients file [here](http:
 
 #### 5)
 
-- This problem is more about size of the database depending on how data is stored. So I will give you instructions for storing the data in two ways. I want the size of the data base on disk (remember info && human readable). You will also need to make sure you run `flushall` before each loading.
+- This problem is more about size of the database depending on how data is stored. I want the size of the data base on disk (remember info && human readable). You will also need to make sure you run `flushall` before loading this structure.You can make multiple passes on the data, and I'm not looking for extremely efficient processing, I just want it loaded as prescribed. You don't have to perform tasks in the order asked either. I just want to final resulting data structures, and size of all of them on disk.
 
+- Store all id's for nutrients in a set.
+- Store all nutrients in a hash with thier id's as keys.
+- Store all tagnames in a set.
+- Store all nutrients in a hash with tagnames as keys.
+- Store all nutrient id's in a list with the item id (top level _id) as the key.
+
+
+Enough for now until I have time to really dive into Redis.
 
 
 

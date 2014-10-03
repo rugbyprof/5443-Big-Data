@@ -19,20 +19,20 @@ As a help to you, I created this small subset of the nutrients file [here](http:
 
 - What are the number of unique food "items" in the file. You might be tempted to count the number of lines, since we assume that each line contains one food item. I will warn you that this is an incorrect solution. Just by chance, there might be a few duplicated rows in the file, therefore line counting would be wrong.
 
-Output:
+>Output:
 >Unique items: xxxxx
 
 ##### 2)
 
 - How many unique nutrients are there?
 
-Output:
+>Output:
 >Unique nutrients: _xxxxx_
 
 ##### 3)
 - What are the top 5 most commonly occuring nutrient?
 
-Output:
+>Output:
 > - 1 _____________ occurs _xxx_ number of times.
 > - 2 _____________ occurs _xxx_ number of times.
 > - ...
@@ -42,7 +42,7 @@ Output:
 ##### 4)
 - What percentage of all foods contain this nutrient?
 
-Output:
+>Output:
 > __________ occurs in _x_% number if items.
 
 

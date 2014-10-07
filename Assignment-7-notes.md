@@ -41,4 +41,14 @@ from pymongo import MongoClient
 client = MongoClient()
 ```
 
+show dbs
+
+use dbname
+
+show collections
+
+db.dropDatabase();
+
+db.collection.find()
+db.collection.findOne()
 

@@ -52,3 +52,4 @@ db.dropDatabase();
 db.collection.find()
 db.collection.findOne()
 
+http://altons.github.io/python/2013/01/21/gentle-introduction-to-mongodb-using-pymongo/

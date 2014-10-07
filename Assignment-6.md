@@ -1,5 +1,7 @@
 ## Processing a file with Redis
 
+Due Thursday 7 October you bunch of losers.
+
 Using Python + Redis, acquire the following information from `nutrition.json`
 
 #### Preliminaries

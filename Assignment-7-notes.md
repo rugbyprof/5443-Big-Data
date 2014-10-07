@@ -17,6 +17,11 @@
 
 ![](http://docs.mongodb.org/manual/_images/crud-annotated-collection.png)
 
+### Query
+
+![](http://docs.mongodb.org/manual/_images/crud-query-stages.png)
+
+
 - Install mongo-db
 
 - Install python-pymongo

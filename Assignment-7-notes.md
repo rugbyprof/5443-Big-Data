@@ -17,10 +17,13 @@
 
 ![](http://docs.mongodb.org/manual/_images/crud-annotated-collection.png)
 
-### Query
+### CRUD
 
-![](http://docs.mongodb.org/manual/_images/crud-query-stages.png)
+http://docs.mongodb.org/manual/core/crud-introduction/
+http://docs.mongodb.org/manual/core/read-operations-introduction/
+http://docs.mongodb.org/manual/core/write-operations-introduction/
 
+### Using Python with MondoDB
 
 - Install mongo-db
 
@@ -29,3 +32,13 @@
 ```bash
 sudo apt-get install python-pymongo
 ```
+
+Making a Connection with MongoClient
+The first step when working with PyMongo is to create a MongoClient to the running mongod instance. Doing so is easy:
+
+```python
+from pymongo import MongoClient
+client = MongoClient()
+```
+
+

@@ -117,9 +117,103 @@ http://altons.github.io/python/2013/01/21/gentle-introduction-to-mongodb-using-p
 sudo apt-get install python-tweepy
 ```
 
+#### Example search Twitter for a keyword
+
+```python
+import tweepy
+import pymongo
+import json
+import sys
+
+from pymongo import MongoClient
+
+def is_json(myjson):
+   try:
+      json_object = json.loads(myjson)
+   except ValueError, e:
+      return False
+   return True
+
+conn = MongoClient()
+db = conn.twitter
+
+#Twitter app info
+#Replace with YOUR info!
+consumer_key = '-------------------------'
+consumer_secret = '-----------------------------------------------'
+access_token = '--------------------------------------------'
+access_token_secret = '-----------------------------------------------'
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)    
+    
+keyword = 'cricket'
+
+count = 0
+
+tweets = api.search(keyword)
+for tweet in tweets:
+	#Pull out json from api
+	tweet = tweet._json
+
+	# Insert tweet
+	db.cricket.insert( tweet )
+	print count
+	count = count + 1
+
+```
+
+#### Example streaming Twitter listener 
+
+```python
+from tweepy.streaming import StreamListener
+from tweepy import OAuthHandler
+from tweepy import Stream
+
+import pymongo
+import json
+import sys
+
+from pymongo import MongoClient
+
+# Go to http://dev.twitter.com and create an app.
+# The consumer key and secret will be generated for you after
 
 
 
+class StdOutListener(StreamListener):
+    """ A listener handles tweets are the received from the stream.
+    This is a basic listener that just prints received tweets to stdout.
+
+    """
+    def __init__(self):
+        self.conn = MongoClient()
+        self.db = self.conn.twitter
+    
+    def on_data(self, data):
+    	jdata =  json.loads(data)
+        self.db.tweets.insert( jdata )
+        return True
+
+    def on_error(self, status):
+        print status
+
+if __name__ == '__main__':
+    #Twitter app info
+   consumer_key = '-------------------------'
+   consumer_secret = '-----------------------------------------------'
+   access_token = '--------------------------------------------'
+   access_token_secret = '-----------------------------------------------'	
+
+    l = StdOutListener()
+    auth = OAuthHandler(consumer_key, consumer_secret)
+    auth.set_access_token(access_token, access_token_secret)
+
+    stream = Stream(auth, l)
+    stream.filter(track=['big data','bigdata','hadoop','data mining'])
+```
 
 
 

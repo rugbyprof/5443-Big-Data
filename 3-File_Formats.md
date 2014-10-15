@@ -158,7 +158,7 @@ You should have a directory structure that looks like:
 	  - ![1] FileFormats
 	    - ![8] GpsFilePoints.csv
 	    - ![10] GpsFilePoints.sql
-	    - ![7] GpsFilePoints.xml
+	    - ![7]  GpsFilePoints.xml
 	    - ![11] GpsFilePoints.yml
 	    - ![12] GpsFilePoints.json
 	    - ![9] Writeup.md

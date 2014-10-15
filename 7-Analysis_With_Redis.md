@@ -2,13 +2,15 @@
 
 Due Thursday 7 October.
 
-Using Python + Redis, acquire the following information from `nutrition_clean.json`
+#### Overview
+
+Using Python + Redis, load selected data from `nutrition_clean.json` into our Redis key/store.
 
 #### Preliminaries
 
-- Use the `Redis` folder on your server at `/var/www/html/BigData/Redis`.
+- In the folder on your server at `/var/www/html/BigData/Redis`, create a sub folder called `Solutions`.
 - Use the `nutrition_clean.json` in this folder to process.
-- For each of the following questions, create a file called Problem_x.py, replacing the `x` with the problem number.
+- For each of the following questions, create a file called `Problem_x.py`, replacing the `x` with the problem number.
 - I should be able to run each program without error. Each program might not have output necessarily, but it should still run.
 
 #### Little Help
@@ -65,5 +67,38 @@ As a help to you, I created this small subset of the nutrients file [here](http:
 
 Enough for now until I have time to really dive into Redis.
 
+-----
+
+- ![1] /var/www/html
+	- ![1] BigData
+	  - ![1] FileFormats
+	  - ![1] Hadoop
+	  - ![1] Redis
+	      - ![6] nutrition.json
+	      - ![6] nutrition_clean.json
+	      - ![13] process_json.py`
+	      - ![9] Writeup.md
+	- ![9] README.md
+	
+-----
+
+#### Lastly
+
+___Push your files to GitHub___
+
+
+[1]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/folder2.png
+[2]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/php.png
+[3]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/html.png
+[4]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/css.png
+[5]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/js.png
+[6]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png
+[7]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/xml.png
+[8]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/csv.png
+[9]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/md2.png
+[10]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/sql.png
+[11]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/yml.png
+[12]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png
+[13]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/py.png
 
 

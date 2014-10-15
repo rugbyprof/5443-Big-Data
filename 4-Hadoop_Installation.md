@@ -1,4 +1,4 @@
-### Assignment 3 - Installing Hadoop.
+### Assignment 4 - Installing Hadoop.
 #### Due: Tue Sep 16<sup>th</sup> by class time.
 
 #### Install Hadoop
@@ -29,6 +29,7 @@ Follow the steps in the tutorial [here](https://www.digitalocean.com/community/t
 	  - ![1] FileFormats
 	  - ![1] Hadoop
 	    - ![9] Writeup.md
+	- [9] README.md
 -----
 
 

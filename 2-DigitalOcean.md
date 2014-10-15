@@ -100,9 +100,25 @@ $ sudo apt-get install git
 
 - Go to http://your.ip.address/ and see if the apache default page shows up.
 
-#### 7. Email me your Ip address
 
-- In an email with the subject: "5443 IP Info"
+#### 7. Github
+
+- Create a folder called `BigData` in your `/var/www/html` directory.
+- Change into that folder: `cd BigData`
+- Run the following: `git init`.
+- If you get an error from the previous command, most likely `git` is not installed, so run:
+
+```
+sudo apt-get install git
+```
+- Then try `git init` again.
+
+- If you succesfully ran the previous command, then great! You should see a folder: `.git` in your `BigData` folder now.
+- Go [HERE](https://help.github.com/articles/generating-ssh-keys/) and follow this Github tutorial to generate ssh keys to allow you to "push" files from your server to Github.
+- Now go [HERE](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) to add this `.git` repo to the one you created in your first assignment.
+
+#### 8. Commit Your First File to Github
+
 
 >- Your Name
 - Your github username

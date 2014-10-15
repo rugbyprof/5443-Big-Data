@@ -145,8 +145,8 @@ When your all done, you should have a directory structure like:
 
 -----
 - ![1] /var/www/html
-	- ![1] BigData
-	    -![9] README.md 
+    - ![1] BigData
+         -![9] README.md 
 
 -----
 

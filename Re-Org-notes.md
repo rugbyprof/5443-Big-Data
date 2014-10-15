@@ -1,7 +1,13 @@
-3-Fileformats:
+### Goal
 
-I changed quite a bit about the 3-Fileformats assignment. Go back and look to see what (if any) additions 
-you may need to add. You have a much better handle on python now, so you should be able to handle a conversion
-to json quite easily.
+To make specific notes for each assignment to help with the transition.
+
+### Reality
+
+You just need to read each assignment. Very little is "in addition" to what was previously there, but there are many changes in an organizational sense.
+
+Please read every assignment!
+
+Terry
 
 

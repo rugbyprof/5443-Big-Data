@@ -29,7 +29,7 @@ Follow the steps in the tutorial [here](https://www.digitalocean.com/community/t
 	  - ![1] FileFormats
 	  - ![1] Hadoop
 	    - ![9] Writeup.md
-	- [9] README.md
+	- ![9] README.md
 -----
 
 

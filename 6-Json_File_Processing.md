@@ -81,7 +81,7 @@ for jline in f:
     - (___BONUS___) Display how many characters removed.
     - (___BONUS___) Display the list of unique characters removed.
 - As your script runs, it should create a file with the "good" json in it. Call this file: `nutrition_clean.json`
-- It should also create an output file: `Writeup.md` with the above information in it (in `markdown` format)
+- It should also create an output file: `writeup.md` with the above information in it (in `markdown` format)
 
 ```
 ### Json File Processing
@@ -110,7 +110,7 @@ for jline in f:
 	      - ![6] nutrition.json
 	      - ![6] nutrition_clean.json
 	      - ![13] process_json.py`
-	      - ![9] Writeup.md
+	      - ![9] writeup.md
 	- ![9] README.md
 	
 -----

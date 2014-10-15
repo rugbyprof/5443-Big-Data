@@ -1,4 +1,4 @@
-## Assignment 3 - Getting Our Feet Wet
+## Assignment 3 - Data Formats
 #### Due: Thursday Sep 11th by classtime.
 
 ### Basic Idea

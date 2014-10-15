@@ -20,7 +20,7 @@ Follow the steps in the tutorial [here](https://www.digitalocean.com/community/t
 #### Where to place your write up
 
 - Create a folder called `Hadoop` in `/var/www/html/BigData`
-- Add a file called Writeup.md to this folder (this will contain answers to the next section).
+- Add a file called `writeup.md` to this folder (this will contain answers to the next section).
 - Your new file structure should look like:
 
 -----
@@ -29,7 +29,7 @@ Follow the steps in the tutorial [here](https://www.digitalocean.com/community/t
 	- ![1] BigData
 	  - ![1] FileFormats
 	  - ![1] Hadoop
-	    - ![9] Writeup.md
+	    - ![9] writeup.md
 	- ![9] README.md
 	
 -----

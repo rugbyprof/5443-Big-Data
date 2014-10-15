@@ -72,98 +72,26 @@ sudo make install
 - Ptyhon examples
     - http://stackoverflow.com/questions/8689795/python-remove-non-ascii-characters-but-leave-periods-and-spaces
     
-### Php Helper Snippet 
+### Python Helper Snippet 
 
 ```php
-<?php
-//Turn on errors
-ini_set('display_errors',1);
-ini_set('display_startup_errors',1);
-error_reporting(-1);
-
-//Create a new Redis object
-//Not used YET
-$redis = new Redis();
-
-//Scan the directory with our data placing each filename into an array
-$dir = scandir('./data');
-
-//Remove the '.' and the '..'
-array_shift($dir);
-array_shift($dir);
-
-//Loop through the directory array and process each file
-foreach($dir as $file){
-
-   //Open file
-	 $fp = fopen('./data/'.$file,"r");
-
-   //Start line count at zero
-	 $line = 0;
-	 
-	 //While there are still lines to read
-	 while (($buffer = fgets($fp, 4096)) !== false) {
-	 
-	    //Get a line
-		  $buffer = iconv('ASCII', 'UTF-8//IGNORE', $buffer);
-		  
-		  //Try to decode it (turns json into a php array)
-		  $json = json_decode($buffer);
-		
-		  //Show any errors as they occur
-		  if(json_last_error()){
-			  echo $file." ".$line." ".JsonError(json_last_error())." ".mb_detect_encoding($buffer)."\n";
-		  }
-		  
-		  $line++;
-	 }
-	 fclose($fp);
-	 
-	 //This breaks and only runs ONE file right now.
-	 break;
-}
-
-
-//Function to give a "string" error for any json errors
-function JsonError($val){
-    switch ($val) {
-        case JSON_ERROR_NONE:
-            return ' - No errors';
-        break;
-        case JSON_ERROR_DEPTH:
-            return ' - Maximum stack depth exceeded';
-        break;
-        case JSON_ERROR_STATE_MISMATCH:
-            return ' - Underflow or the modes mismatch';
-        break;
-        case JSON_ERROR_CTRL_CHAR:
-            return ' - Unexpected control character found';
-        break;
-        case JSON_ERROR_SYNTAX:
-            return ' - Syntax error, malformed JSON';
-        break;
-        case JSON_ERROR_UTF8:
-            return ' - Malformed UTF-8 characters, possibly incorrectly encoded';
-        break;
-        default:
-            return ' - Unknown error';
-        break;
-    }
-}
-```
-
-### Python Helper Snippet
-
-```py
+import redis
 import string
+import json
+import sys
 
-# Open file for reading
-f = open('nutrition.json', 'r')
+#Link up with redis
+r = redis.Redis(host='localhost', port=6379, db=0)
 
+f = open('nutrition.json','r')
 # Read one line from file
-s = f.readline()
 
-# Filter that line, removing non ascii characters
-# Doesn't identify which, just filters
-filter(lambda x: x in string.printable, s)
+for line in f:
+    # Filter that line, removing non ascii characters
+    # Doesn't identify which, just filters
+    line = json.loads(filter(lambda x: x in string.printable, line))
+
+    #Print the line nicely formatted
+    #print json.dumps(line, sort_keys=True,indent=4, separators=(',', ': '))
+
 ```

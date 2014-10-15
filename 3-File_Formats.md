@@ -167,15 +167,15 @@ You should have a directory structure that looks like:
 
 
 
-[1]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/folder.png
-[2]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/php.png
-[3]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/html.png
-[4]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/css.png
-[5]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/js.png
-[6]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png
-[7]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/xml.png
-[8]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/csv.png
-[9]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/md.png
+[1]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/folder.png
+[2]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/php.png
+[3]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/html.png
+[4]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/css.png
+[5]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/js.png
+[6]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png
+[7]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/xml.png
+[8]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/csv.png
+[9]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/md.png
 [10]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/sql.png
 [11]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/yml.png
 [12]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png

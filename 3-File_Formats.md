@@ -42,8 +42,8 @@ http://cs.mwsu.edu/~griffin/5443-BigData
 
 ## Part One
 
-- Create a fodler in your `/var/www/html` directory called `BigData`
-- Create a folder in your `/var/www/html/BigData` directory called `GpsData`
+- You should already have `/var/www/html/BigData` created.
+- Create a folder in your `/var/www/html/BigData` directory called `FileFormats`
 - Copy the files from http://cs.mwsu.edu/~griffin/5443-BigData to your folder.
 
 How can this be done? Here's two ways (run them from the command line inside your folder):
@@ -53,7 +53,7 @@ How can this be done? Here's two ways (run them from the command line inside you
 
 - Repeat for each file. I'll show you how to write a script in class to automate it for all files.
 - We will also discuss ways to speed this whole process up.
-- When finished you should have a directory listing in `/var/www/html/BigData/GpsData`  similar to the one above.
+- When finished you should have a directory listing in `/var/www/html/BigData/FileFormats`  similar to the one above.
 
 ## Part Two
 
@@ -129,11 +129,10 @@ What if you weren't sure if your json is valid?
 
 ### ~~The conversion~~
 
-- Create a folder in your `/var/www/html/BigData` folder called `FileFormats`
-- Place all the files from http://cs.mwsu.edu/~griffin/5443-BigData in your `FileFormats` directory.
+- You should have `/var/www/html/BigData/FileFormats` created with your gps files in it.
 - Place all of your scripting in here to complete the conversion from one of the files to Json. 
 - Use any language you see fit, but since I'm post editing this document, python would be my choice :) Make sure you call it `conversion.??` and replace the `??` with your languages extension.
-- I don't care how you get it done. First, I started giving an example to help with the solution, but now I'm more interested in your process than the solution. So ... no help.
+- I don't care how you get it done. You've seen plenty of examples in class by now.
 
 ### The write up
 
@@ -147,7 +146,10 @@ What if you weren't sure if your json is valid?
 - Which files had a better compression ratio?
 - Can you speculate as to why?
 
-I want you to write up your findings for this entire project using `Markdown` and place them in a file called `Writeup.md` here `/var/www/html/BigData/FileFormats/Writeup.md`
+- I want you to write up your findings for this entire project using `Markdown` and place them in a file called `Writeup.md` here `/var/www/html/BigData/FileFormats/Writeup.md`
+
+___Minimum of 1.5 pages or close to 1000 words.___
+
 
 ### When your done
 

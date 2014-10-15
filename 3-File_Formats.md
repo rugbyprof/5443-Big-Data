@@ -146,7 +146,7 @@ What if you weren't sure if your json is valid?
 - Which files had a better compression ratio?
 - Can you speculate as to why?
 
-- I want you to write up your findings for this entire project using `Markdown` and place them in a file called `Writeup.md` here `/var/www/html/BigData/FileFormats/Writeup.md`
+- I want you to write up your findings for this entire project using `Markdown` and place them in a file called `writeup.md` here `/var/www/html/BigData/FileFormats/writeup.md`
 
 ___Minimum of 1.5 pages or close to 1000 words.___
 
@@ -164,7 +164,7 @@ You should have a directory structure that looks like:
 	    - ![7]  GpsFilePoints.xml
 	    - ![11] GpsFilePoints.yml
 	    - ![12] GpsFilePoints.json
-	    - ![9] Writeup.md
+	    - ![9] writeup.md
 	- ![9] README.md
 
 In addition, you should have `conversion.??` in this folder.

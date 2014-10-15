@@ -65,7 +65,21 @@ As a help to you, I created this small subset of the nutrients file [here](http:
 - Store all nutrient id's in a list with the item id (top level _id) as the key.
 
 
-Enough for now until I have time to really dive into Redis.
+### Writeup
+
+- Create a file called `writeup.md` in your `Solutions` folder.
+- Write an organized document (using markdown) listing all your solutions, and small descriptions on how you solved them.
+- For example:
+
+> 1)What are the number of unique food "items" in the file. You might be tempted to count the number of lines, since we assume that each line contains one food item. I will warn you that this is an incorrect solution. Just by chance, there might be a few duplicated rows in the file, therefore line counting would be wrong.
+
+> Output:
+>
+> Unique items: xxxxx
+
+> In my solution I opted to use a redis "hash" since all keys must be unique. I used the "_id" field as the "key" and the description as the "value", (e.g. `HSET key value`). I could then use `HLEN` to count the number of unique id's in the hash, thereby giving me the number of unique values in the data set.
+
+### Your 
 
 -----
 
@@ -77,7 +91,7 @@ Enough for now until I have time to really dive into Redis.
 	      - ![6] nutrition.json
 	      - ![6] nutrition_clean.json
 	      - ![13] process_json.py`
-	      - ![9] Writeup.md
+	      - ![9] writeup.md
 	- ![9] README.md
 	
 -----

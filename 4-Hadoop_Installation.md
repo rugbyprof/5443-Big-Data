@@ -19,7 +19,9 @@ Follow the steps in the tutorial [here](https://www.digitalocean.com/community/t
 
 #### Where to place your write up
 
-- Create a folder called Hadoop
+- Create a folder called `Hadoop` in `/var/www/html/BigData`
+- Add a file called WriteUp.md to this folder (this will contain answers to the next section).
+
 
 #### Write Up
 

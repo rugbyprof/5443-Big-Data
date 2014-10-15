@@ -1,4 +1,4 @@
-## Program 1 - Getting Our Feet Wet
+## Assignment 3 - Getting Our Feet Wet
 #### Due: Thursday Sep 11th by classtime.
 
 ### Basic Idea

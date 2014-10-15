@@ -119,8 +119,40 @@ sudo apt-get install git
 
 #### 8. Commit Your First File to Github
 
+- Create a folder called `BigData` in `\var\www\html`
 
 >- Your Name
 - Your github username
 - The ip address of your new server
 - My password (which is dictated to you above)
+
+
+-----
+- ![1] /var/www/html
+	- ![1] BigData
+	  - ![1] FileFormats
+	    - ![8] GpsFilePoints.csv
+	    - ![10] GpsFilePoints.sql
+	    - ![7]  GpsFilePoints.xml
+	    - ![11] GpsFilePoints.yml
+	    - ![12] GpsFilePoints.json
+	    - ![9] Writeup.md
+
+In addition, you should have `conversion.??` in this folder.
+
+-----
+
+
+
+[1]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/folder.png
+[2]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/php.png
+[3]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/html.png
+[4]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/css.png
+[5]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/js.png
+[6]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png
+[7]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/xml.png
+[8]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/csv.png
+[9]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/md.png
+[10]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/sql.png
+[11]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/yml.png
+[12]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png

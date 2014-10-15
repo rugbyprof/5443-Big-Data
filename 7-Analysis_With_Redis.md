@@ -1,13 +1,13 @@
 ## Processing a file with Redis
 
-Due Thursday 7 October you bunch of losers.
+Due Thursday 7 October.
 
-Using Python + Redis, acquire the following information from `nutrition.json`
+Using Python + Redis, acquire the following information from `nutrition_clean.json`
 
 #### Preliminaries
 
-- Create a folder on your server called `Assignment6` in `/var/www/html`.
-- Copy `nutrition.json` into this folder.
+- Use the `Redis` folder on your server at `/var/www/html/BigData/Redis`.
+- Use the `nutrition_clean.json` in this folder to process.
 - For each of the following questions, create a file called Problem_x.py, replacing the `x` with the problem number.
 - I should be able to run each program without error. Each program might not have output necessarily, but it should still run.
 

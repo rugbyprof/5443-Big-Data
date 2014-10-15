@@ -165,7 +165,7 @@ You should have a directory structure that looks like:
 	    - ![11] GpsFilePoints.yml
 	    - ![12] GpsFilePoints.json
 	    - ![9] Writeup.md
-	- [9] README.md
+	- ![9] README.md
 
 In addition, you should have `conversion.??` in this folder.
 

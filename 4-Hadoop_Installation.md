@@ -8,15 +8,20 @@ Follow the steps in the tutorial [here](https://www.digitalocean.com/community/t
 
 -----
 
-- When your done, do a `whereis hadoop`. 
-- And run `jps` from the command line.
-- Take a screen shot and put it in your write up.
+- When your done, do a `whereis hadoop`, it should give you a location.
+- Remember to start your server you run: `start-dfs.sh` (answer the prompts)
+- Also enter: `start-yarn.sh`
+- Then finally run `jps` from the command line. You should get something "similar" but not exactly like:
 
-Example:
+![](http://f.cl.ly/items/2y1Q2T0U2P3i0K0E2Z0i/jps.png)
 
-![](http://f.cl.ly/items/2J031W3S191f2k3I2J1h/screen_hadoop.png)
+- Take a screen shot to put in your write up.
 
-#### Questions
+#### Where to place your write up
+
+- Create a folder called Hadoop
+
+#### Write Up
 
 - How do you add nodes to your Hadoop cluster?
 - Can everyone in class add the remaining members of the class to thier cluster? This asks the question: "Can everyone simultaneously run thier own Hadoop cluster, AND be a slave (worker) in another Hadoop cluster?" This would obviously never be ideal in the real world, but can this work as a model in our BigData course? Otherwise, you will be running your assignments on a single server, which doesn't fit with the whole `Big Data` theme.

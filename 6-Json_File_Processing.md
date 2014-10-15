@@ -12,18 +12,8 @@ $ cd redis
 $ wget http://107.170.214.232/nutrition.json
 ```
 
-- You can split `nutrition.json` if you like, or leave it at `65mb`.
+- You can split `nutrition.json` if you like, or leave it at `65mb`, but you must process the whole file.
 - Create a script called `process_json.py` and place it in `/var/www/html/BigData/redis`.
-- When I run your script, it should process `nutrition.json` and do the following:
-    - Remove any ill-formed lines or characters from the dataset.
-    - Display how many lines processed in total.
-    - Display how many lines not processed (illegal json ... I provided a function in class to identify this).
-    - Display the ratio of good vs bad lines.
-    - (___BONUS___) Display the illegal characters with the line number where it was found.
-    - (___BONUS___) Display how many characters removed.
-    - (___BONUS___) Display the list of unique characters removed (I think it's one).
-
-
 
 #### Installing Redis
 
@@ -80,3 +70,16 @@ for jline in f:
     print json.dumps(jline, sort_keys=True,indent=4, separators=(',', ': '))
 
 ```
+#### What to Turn In
+
+- When I run your script, it should process `nutrition.json` and do the following:
+    - Remove any ill-formed lines or characters from the dataset.
+    - Display how many lines processed in total.
+    - Display how many lines not processed (illegal json ... I provided a function in class to identify this).
+    - Display the ratio of good vs bad lines.
+    - (___BONUS___) Display the illegal characters with the line number where it was found.
+    - (___BONUS___) Display how many characters removed.
+    - (___BONUS___) Display the list of unique characters removed (I think it's one).
+- As your script runs, it should create a file with the "good" json in it. Call this file: `nutrition_clean.json`
+
+- After your done, you should have a directory structure similar to: 

@@ -79,7 +79,7 @@ As a help to you, I created this small subset of the nutrients file [here](http:
 
 > In my solution I opted to use a redis "hash" since all keys must be unique. I used the "_id" field as the "key" and the description as the "value", (e.g. `HSET key value`). I could then use `HLEN` to count the number of unique id's in the hash, thereby giving me the number of unique values in the data set.
 
-### Your 
+__After your done, you should have a directory structure similar to:__
 
 -----
 
@@ -88,10 +88,13 @@ As a help to you, I created this small subset of the nutrients file [here](http:
 	  - ![1] FileFormats
 	  - ![1] Hadoop
 	  - ![1] Redis
-	      - ![6] nutrition.json
-	      - ![6] nutrition_clean.json
-	      - ![13] process_json.py`
-	      - ![9] writeup.md
+	      - ![1] Solutions
+	          - ![13] Problem_1.py
+	          - ![13] Problem_2.py
+	          - ![13] Problem_3.py
+	          - ![13] Problem_4.py
+	          - ![13] Problem_5.py
+	          - ![9] writeup.md
 	- ![9] README.md
 	
 -----

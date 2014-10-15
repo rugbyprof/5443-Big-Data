@@ -119,26 +119,34 @@ sudo apt-get install git
 
 #### 8. Commit Your First File to Github
 
-- Create a folder called `BigData` in `\var\www\html`
+- Create a folder called `BigData` in `/var/www/html/`
+- Create a file called `README.md` in `/var/www/html/BigData`
+- The `README.md` file shows up when someone browses to your repository!
 
->- Your Name
-- Your github username
-- The ip address of your new server
-- My password (which is dictated to you above)
+- In your `README.md` file, place the following info (using nice markdown):
 
+-----
+
+### Name
+
+Your name
+
+### Github Username
+
+Your github username
+
+### Server IP
+
+http://111.222.333.444
+
+-----
+
+When your all done, you should have a directory structure like:
 
 -----
 - ![1] /var/www/html
 	- ![1] BigData
-	  - ![1] FileFormats
-	    - ![8] GpsFilePoints.csv
-	    - ![10] GpsFilePoints.sql
-	    - ![7]  GpsFilePoints.xml
-	    - ![11] GpsFilePoints.yml
-	    - ![12] GpsFilePoints.json
-	    - ![9] Writeup.md
-
-In addition, you should have `conversion.??` in this folder.
+	    -![9] README.md 
 
 -----
 

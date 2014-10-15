@@ -4,11 +4,11 @@ This is a small walk through that prepares us to use python to load json data in
 
 ### Background
 
-- Create a folder called `redis` in `/var/www/html/BigData`
-- Copy nutrition.json into `redis`
+- Create a folder called `Redis` in `/var/www/html/BigData`
+- Copy nutrition.json into `Redis`
 
 ```
-$ cd redis
+$ cd Redis
 $ wget http://107.170.214.232/nutrition.json
 ```
 
@@ -29,7 +29,7 @@ sudo apt-get install python-redis
 - Json Library
     - https://docs.python.org/2/library/json.html
 - Python filter
-    - `filter(lambda x: x in string.printable, line) # filters non ascii out of "line"`
+    - `filter(lambda x: x in string.printable, line)` # filters non ascii out of "line"
 - Split file into so many lines
     - split -l 500 myfile segment
 - Json validator web site
@@ -79,9 +79,9 @@ for jline in f:
     - Display the ratio of good vs bad lines.
     - (___BONUS___) Display the illegal characters with the line number where it was found.
     - (___BONUS___) Display how many characters removed.
-    - (___BONUS___) Display the list of unique characters removed (I think it's one).
+    - (___BONUS___) Display the list of unique characters removed.
 - As your script runs, it should create a file with the "good" json in it. Call this file: `nutrition_clean.json`
-- It should also create an output file with the above information in it, in `markdown` format called `writeup.md`:
+- It should also create an output file: `Writeup.md` with the above information in it (in `markdown` format)
 
 ```
 ### Json File Processing
@@ -93,7 +93,7 @@ for jline in f:
 
 ### Bonus
 
-- Illegal character __ found on line ____
+- Illegal character "?" found on line xxx
 - etc.
 ```
 
@@ -106,7 +106,11 @@ for jline in f:
 	- ![1] BigData
 	  - ![1] FileFormats
 	  - ![1] Hadoop
-	    - ![9] Writeup.md
+	  - ![1] Redis
+	      - ![6] nutrition.json
+	      - ![6] nutrition_clean.json
+	      - ![13] process_json.py`
+	      - ![9] Writeup.md
 	- ![9] README.md
 	
 -----
@@ -128,3 +132,4 @@ ___Push your files to GitHub___
 [10]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/sql.png
 [11]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/yml.png
 [12]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png
+[13]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/py.png

@@ -70,7 +70,7 @@ for jline in f:
     print json.dumps(jline, sort_keys=True,indent=4, separators=(',', ': '))
 
 ```
-#### What to Turn In
+#### Write Up
 
 - When I run your script, it should process `nutrition.json` and do the following:
     - Remove any ill-formed lines or characters from the dataset.
@@ -81,5 +81,50 @@ for jline in f:
     - (___BONUS___) Display how many characters removed.
     - (___BONUS___) Display the list of unique characters removed (I think it's one).
 - As your script runs, it should create a file with the "good" json in it. Call this file: `nutrition_clean.json`
+- It should also create an output file with the above information in it, in `markdown` format called `writeup.md`:
+
+```
+### Json File Processing
+### Written by Your Name
+
+- Total Lines Processed: xxxxxx
+- Total Lines Remove: xx
+- Ratio of Good Vs Bad: x%
+
+### Bonus
+
+- Illegal character __ found on line ____
+- etc.
+```
 
 - After your done, you should have a directory structure similar to: 
+
+
+-----
+
+- ![1] /var/www/html
+	- ![1] BigData
+	  - ![1] FileFormats
+	  - ![1] Hadoop
+	    - ![9] Writeup.md
+	- ![9] README.md
+	
+-----
+
+#### Lastly
+
+___Push your files to GitHub___
+
+
+[1]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/folder.png
+[2]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/php.png
+[3]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/html.png
+[4]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/css.png
+[5]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/js.png
+[6]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png
+[7]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/xml.png
+[8]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/csv.png
+[9]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/md.png
+[10]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/sql.png
+[11]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/yml.png
+[12]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png

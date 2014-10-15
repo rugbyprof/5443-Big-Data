@@ -150,6 +150,16 @@ When your all done, you should have a directory structure like:
 
 -----
 
+___Now commit your new "repo" to Github!___
+
+```
+git add .
+git commit -m "My first commit"
+git push origin master
+```
+
+If it doesn't work, then your ssh keys, or your upstream remote wasn't set correctly. 
+Come get help from me, because from here on out, everything gets pushed to Github.
 
 
 [1]:  http://cs.mwsu.edu/~griffin/Free-file-icons/24px/folder.png

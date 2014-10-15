@@ -127,7 +127,7 @@ What if you weren't sure if your json is valid?
 
 - You can go here: http://jsonlint.com/ and it will validate json for you.
 
-### ~~The conversion~~
+### The conversion
 
 - You should have `/var/www/html/BigData/FileFormats` created with your gps files in it.
 - Place all of your scripting in here to complete the conversion from one of the files to Json. 
@@ -159,6 +159,7 @@ You should have a directory structure that looks like:
 - ![1] /var/www/html
 	- ![1] BigData
 	  - ![1] FileFormats
+	    - ![13] conversion.py
 	    - ![8] GpsFilePoints.csv
 	    - ![10] GpsFilePoints.sql
 	    - ![7]  GpsFilePoints.xml
@@ -167,7 +168,7 @@ You should have a directory structure that looks like:
 	    - ![9] writeup.md
 	- ![9] README.md
 
-In addition, you should have `conversion.??` in this folder.
+In addition, you should have `conversion.??` in this folder (I put a conversion.py as an example).
 
 -----
 
@@ -185,3 +186,4 @@ ___Now push your changes to Github!___
 [10]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/sql.png
 [11]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/yml.png
 [12]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/json.png
+[13]: http://cs.mwsu.edu/~griffin/Free-file-icons/24px/py.png

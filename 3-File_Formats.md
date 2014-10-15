@@ -131,7 +131,8 @@ What if you weren't sure if your json is valid?
 
 - Create a folder in your `/var/www/html/BigData` folder called `FileFormats`
 - Place all the files from http://cs.mwsu.edu/~griffin/5443-BigData in your `FileFormats` directory.
-- Place all of your scripting in here to complete the conversion from one of the files to Json.
+- Place all of your scripting in here to complete the conversion from one of the files to Json. 
+- Use any language you see fit, but since I'm post editing this document, python would be my choice :) Make sure you call it `conversion.??` and replace the `??` with your languages extension.
 - I don't care how you get it done. First, I started giving an example to help with the solution, but now I'm more interested in your process than the solution. So ... no help.
 
 ### The write up
@@ -162,6 +163,8 @@ You should have a directory structure that looks like:
 	    - ![11] GpsFilePoints.yml
 	    - ![12] GpsFilePoints.json
 	    - ![9] Writeup.md
+
+In addition, you should have `conversion.??` in this folder.
 
 -----
 

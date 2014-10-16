@@ -84,9 +84,9 @@ To describe your FluxCapacitor
 
 -----
 
-#### Structure
+### Structure
 
-- Abstract (4 sentences)
+- ___Abstract___ (4 sentences)
 - Introduction (1 page)
 - The problem (1 page)
 - My idea (2 pages)
@@ -115,4 +115,20 @@ To describe your FluxCapacitor
 4. Your work will be used more, and the feedback you get from others will in turn improve your research
 
 
+### Structure
 
+- Abstract (4 sentences)
+- ___Introduction___ (1 page)
+- The problem (1 page)
+- My idea (2 pages)
+- The details (5 pages)
+- Related work (1-2 pages)
+- Conclusions and further work (0.5 pages)
+
+#### The Introduction
+
+- 1 Page
+- Describe the Problem
+- State your contributions
+
+___ ... and that is all!___

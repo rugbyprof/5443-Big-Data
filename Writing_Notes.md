@@ -1,6 +1,6 @@
 ### Writing Across the Curriculum Workshop – Spring 2014
 
-#### Part 1
+___Part 1___
 - Don’t allow direct quotes.  Require all cited material to be paraphrased then cite.
 - All cited material MUST be followed by some analysis, commentary, application, etc. written by the student.  If there is not, then why did they include it?
 - Clearly framing an assignment helps not only grading time but informs students of requirements. Give them the grading rubric.
@@ -10,6 +10,7 @@
 - Develop (write) in the following order:
 
 >	Body → Conclusion → Introduction → Title
+
 - The BODY must use an organizational strategy
     - Chronological
     - Strong to weak
@@ -18,13 +19,15 @@
     - This list is VERY long!
 - Tie writing assignment to the objectives of the course.
 
-Part 2
+-----
+
+___Part 2___
 Three Part Sentences:  Well-formed sentences have 3 parts 1/2/3.
-1.	Subject/Main Point of the sentence
-2.	Strong verb (action)
-3.	New information related to subject
-•	The next sentence must refer back to the previous sentence in some way, etc… 
-o	Mary called her mother on Sunday.  They discussed their plans for Christmas. Christmas dinner will be held at Grandmother Smith’s home.
+1. Subject/Main Point of the sentence
+2. Strong verb (action)
+3. New information related to subject
+- The next sentence must refer back to the previous sentence in some way, etc… 
+    - Mary called her mother on Sunday.  They discussed their plans for Christmas. Christmas dinner will be held at Grandmother Smith’s home.
 
 Avoiding Wordiness
 1.	Avoid empty words, especially in sentence openers.  (that, in order to, for example)

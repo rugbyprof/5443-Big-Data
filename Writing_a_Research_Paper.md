@@ -105,3 +105,14 @@ To describe your FluxCapacitor
     2. Say why it’s an interesting problem
     3. Say what your solution achieves
     4. Say what follows from your solution
+
+
+## Example
+
+1. Many papers are badly written and hard to understand
+2. This is a pity, because their good ideas may go unappreciated
+3. Following simple guidelines can dramatically improve the quality of your papers
+4. Your work will be used more, and the feedback you get from others will in turn improve your research
+
+
+

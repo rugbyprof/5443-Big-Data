@@ -54,3 +54,12 @@ The purpose of your paper is...
 ... from your head to your reader's head
 
 ___Everything serves this single goal___
+
+#### The Purpose of your paper is not...
+
+To describe your FluxCapacitor
+
+![](https://raw.githubusercontent.com/cfregly/fluxcapacitor/master/docs/images/fluxcapacitor-logo.png)
+
+- Your reader does not have a FluxCapacitor
+- She is primarily interested in re-usable brain-stuff, not executable artifacts

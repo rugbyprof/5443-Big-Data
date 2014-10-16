@@ -1,6 +1,6 @@
 ### Writing Across the Curriculum Workshop – Spring 2014
 
-___Part 1___
+#### _Part 1_
 - Don’t allow direct quotes.  Require all cited material to be paraphrased then cite.
 - All cited material MUST be followed by some analysis, commentary, application, etc. written by the student.  If there is not, then why did they include it?
 - Clearly framing an assignment helps not only grading time but informs students of requirements. Give them the grading rubric.
@@ -21,7 +21,7 @@ ___Part 1___
 
 -----
 
-___Part 2___
+#### _Part 2_
 Three Part Sentences:  Well-formed sentences have 3 parts 1/2/3.
 1. Subject/Main Point of the sentence
 2. Strong verb (action)
@@ -29,15 +29,15 @@ Three Part Sentences:  Well-formed sentences have 3 parts 1/2/3.
 - The next sentence must refer back to the previous sentence in some way, etc… 
     - Mary called her mother on Sunday.  They discussed their plans for Christmas. Christmas dinner will be held at Grandmother Smith’s home.
 
-Avoiding Wordiness
-1.	Avoid empty words, especially in sentence openers.  (that, in order to, for example)
-2.	Cut down on intensifiers (very, extremely, really, totally)
-3.	Avoid passive voice. (Passive – A poem was written by Bob. Better - Bob wrote a poem.)
-4.	Choose specific words over general (College students like pizza. NOT - Many people like pizza.), concrete over abstract (I am a good candidate. NOT - I believe I am a good candidate.)
-5.	Keep a forbidden word list.
-6.	Use Strong Verbs.
+___Avoiding Wordiness___
+1. Avoid empty words, especially in sentence openers.  (that, in order to, for example)
+2. Cut down on intensifiers (very, extremely, really, totally)
+3. Avoid passive voice. (Passive – A poem was written by Bob. Better - Bob wrote a poem.)
+4. Choose specific words over general (College students like pizza. NOT - Many people like pizza.), concrete over abstract (I am a good candidate. NOT - I believe I am a good candidate.)
+5. Keep a forbidden word list.
+6. Use Strong Verbs.
 
-List of “Bad Guys” – weak verbs, forbidden words
+___List of “Bad Guys” – weak verbs, forbidden words___
 •	WEAK verbs:  is, are, were, was, be, am – can, could, may, might, will
 •	WEAK Prepositions: of, for, to, by (by indicated passive voice most of the time)
 •	Pronouns that do not refer to nouns:  there, it (The library has 10,000 books. NOT - There are many books in the library. ) 
@@ -53,9 +53,9 @@ o	avoid:  fact, example
 •	Avoid either-or: seldom only 2 options
 •	Often can remove THAT, IN SPITE OF and IN ORDER without changing the meaning
 
-Removing Wordiness:  Write first for content without concern for wordiness.  Then edit.  Read each sentence aloud and consider the guidelines.
+___Removing Wordiness:___  Write first for content without concern for wordiness.  Then edit.  Read each sentence aloud and consider the guidelines.
 
-Part 3
+#### _Part 3_
 Passive Voice
 Components:
 1.	The actual subject of the sentence (the one doing something) is replaced by the direct or indirect object and the object takes on the grammatical (not logical) role of the subject.

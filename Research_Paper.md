@@ -1,3 +1,10 @@
+### Paper 1st Assignment
+
+- Find a total of 6 papers on 3 topics. 
+- A small summary (not cut an paste abstract) for each paper.
+  - More details soon.
+- And a ACM style bibliography for all 6 papers.
+
 ### Articles
 1. http://www.quora.com/What-are-the-most-important-research-topics-in-the-Big-Data-field
 1. http://www.researchtrends.com/issue-30-september-2012/the-evolution-of-big-data-as-a-research-and-scientific-topic-overview-of-the-literature/

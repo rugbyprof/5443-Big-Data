@@ -33,6 +33,13 @@ we write papers and give talks mainly to impress others, gain recognition, and g
 
 -----
 
+## Example
+
+1. Many papers are badly written and hard to understand
+2. This is a pity, because their good ideas may go unappreciated
+3. Following simple guidelines can dramatically improve the quality of your papers
+4. Your work will be used more, and the feedback you get from others will in turn improve your research
+
 #### Do not be intimidated
 
 ___Fallacy___:  You need to have a fantastic idea before you can write a paper or give a talk. (Everyone else seems to.)

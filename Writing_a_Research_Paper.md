@@ -46,8 +46,11 @@ ___Fallacy___:  You need to have a fantastic idea before you can write a paper o
 
 ## The Purpose of Your Paper
 
-#### The purpose of your paper is...
+The purpose of your paper is...
 
 
 ![](http://f.cl.ly/items/3W2F3H2d2d2y1J2w1O29/convey.png)
 
+... from your head to your reader's head
+
+___Everything serves this single goal___

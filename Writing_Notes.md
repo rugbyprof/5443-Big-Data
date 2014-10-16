@@ -61,6 +61,7 @@ ___Removing Wordiness:___  Write first for content without concern for wordiness
 
 Passive Voice
 Components:
+
 1. The actual subject of the sentence (the one doing something) is replaced by the direct or indirect object and the object takes on the grammatical (not logical) role of the subject.
 2. A form of the verb be (is, are, was, were) and an appropriate main (active) verb (ending in –en, -ed) are added, but the original tense remains the same
 3. The preposition by is added followed by the main (logical) subject.  The prepositional phrase beginning with by usually occurs at the end of the sentence and can usually be omitted.
@@ -75,7 +76,7 @@ Components:
     - In this case, it is not important who did the action so passive voice is acceptable.
     - Passive but appropriate: The new attendance policy will have to be improved.
 
-Making the Subject the Subject (S=S) 
+__Making the Subject the Subject__ (S=S) 
 - By removing excessive wordiness at the beginning of sentences & removing passive voice
 - By clearly identifying the logical subject of the sentence and moving it to front of sentence
 - Example 1

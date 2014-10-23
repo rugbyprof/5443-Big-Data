@@ -53,8 +53,11 @@ for line in sys.stdin:
 - Save your file in /usr/local/hadoop/users/yourusername/word_mapper.py.
 - Also, make sure it’s executable: `chmod +x word_mapper.py`
 
-Has it worked? 
-Run this command: `/usr/local/hadoop/bin/hadoop fs -cat /input/count_of_monte_cristo.txt | /home/hduser/word_mapper.py`
+__Has it worked?__
+Run this command: 
+```
+/usr/local/hadoop/bin/hadoop fs -cat /input/count_of_monte_cristo.txt | /home/hduser/word_mapper.py
+```
 
 ### The Reducer
 
@@ -113,9 +116,8 @@ bin/hadoop jar share/hadoop/tools/lib/hadoop-streaming-2.4.0.jar -files /home/hd
 
 And off it goes – enjoy watching your mapreduce race through at what I’m sure is a barely tolerable crawl.
 
-Has it worked?
-
-Run this beauty:
+__Has it worked?__
+Run this command:
 
 ```
 /usr/local/hadoop/bin/hadoop fs -cat /output/part-00000

@@ -5,4 +5,6 @@
 - Bring next Tuesday (October 28<sup>th</sup>):
     - A paragraph or two describing your general topic.
     - A summary for each paper (as in the previous assignment).
-    - 
+    - An ACM style bibliography for each of the 5 papers.
+- You don't have to limit yourself to 5 papers.
+- Don’t pick a topic that's too broad.

@@ -2,7 +2,7 @@
 
 - Find a total of 6 papers on 3 topics. 
 - A small summary (not cut an paste abstract) for each paper.
-- And a ACM style bibliography for all 6 papers.
+- An ACM style bibliography for all 6 papers.
 
 ### Articles
 1. http://www.quora.com/What-are-the-most-important-research-topics-in-the-Big-Data-field

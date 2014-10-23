@@ -33,17 +33,12 @@ ___Add to hadoop file system___
 Has it worked?
 
 Run this command from `/usr/local/hadoop/users/yourusername`:
+
 ```
-/usr/local/hadoop/bin/hadoop fs -ls /input | grep count_of_monte_cristo | awk -F '\/' '{print $3}' | cut -d '.' -f1
+/usr/local/hadoop/bin/hadoop fs -ls /input
 ``
 
-- If it returns a warning followed by ‘count_of_monte_cristo’ then you’re in the money. 
-- If you don’t understand the commands above, don’t worry. 
-
-
 ### The Mapper
-
-With this bit of code we’re going to go over every line in the text file and output the word and the number of instances of that word (one, for now) – easy does it:
 
 ```python
 #!/usr/bin/python
@@ -54,15 +49,12 @@ for line in sys.stdin:
     for word in line.strip().split():
         print "%s\t%d" % (word, 1)
 ```
+
 - Save your file in /usr/local/hadoop/users/yourusername/word_mapper.py.
 - Also, make sure it’s executable: `chmod +x word_mapper.py`
 
 Has it worked? 
 Run this command: `/usr/local/hadoop/bin/hadoop fs -cat /input/count_of_monte_cristo.txt | /home/hduser/word_mapper.py`
-
-If you’ve gone maverick and used a different filename or file location then that’s fine – just substitute that in where I’ve used /home/hduser/word_mapper.py. If you’ve gone maverick but don’t really know what you’re doing and don’t know what I’ve just said, that’s basically on you. Keep trooping on, you’ll get there.
-
-Either way, don’t stop until that code outputs a stream of words followed by the number 1. Don’t worry – you can stop it by pressing Ctrl and C together.
 
 ### The Reducer
 
@@ -91,12 +83,15 @@ if current_count > 1:
     print "%s\t%d" % (current_word, current_count)
 ```
 
-Follow the code through and try to think of the different cases it’s trying to catch. The first and last lines are tricky but play around with it – what happens if I just feed a file containing one word? What about a file with no duplicate words? Think about all the different cases and hopefully – the above code handles them all as you’d expect. If not, please let me know. That’d be real embarrassing.
+- Follow the code through and try to think of the different cases it’s trying to catch. 
+- The first and last lines are tricky but play around with it – what happens if I just feed a file containing one word? 
+- What about a file with no duplicate words? 
+- Think about all the different cases and hopefully – the above code handles them all as you’d expect. 
+
 
 Has it worked?
 
-Make sure that file is executable:
-chmod +x /home/hduser/word_reducer.py
+Make sure that file is executable: `chmod +x /home/hduser/word_reducer.py`
 
 Run this:
 
@@ -126,3 +121,4 @@ If you see a stream of likely looking results – you’re golden. If you want t
 /usr/local/hadoop/bin/hadoop fs -get /output/part-00000 /home/hduser/monte_cristo_counted.txt
 less /home/hduser/monte_cristo_counted.txt
 
+Source: http://dogdogfish.com/2014/05/19/hadoop-wordcount-in-python/

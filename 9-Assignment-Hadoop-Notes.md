@@ -11,7 +11,9 @@ http://dogdogfish.com/2014/04/26/installing-hadoop-2-4-on-ubuntu-14-04/
 I'm not sure how this will effect a multi user setting, but:
 
 ___Start Hadoop___
+```
 /usr/local/hadoop/sbin/start-dfs.sh && /usr/local/hadoop/sbin/start-yarn.sh
+```
 
 ___Change to your Hadoop directory___
 

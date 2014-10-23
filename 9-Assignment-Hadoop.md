@@ -83,30 +83,33 @@ if current_count > 1:
     print "%s\t%d" % (current_word, current_count)
 ```
 
-- Follow the code through and try to think of the different cases it’s trying to catch. 
+- Follow the code through and try to think of the different cases it's trying to catch. 
 - The first and last lines are tricky but play around with it – what happens if I just feed a file containing one word? 
 - What about a file with no duplicate words? 
 - Think about all the different cases and hopefully – the above code handles them all as you’d expect. 
 
 
-Has it worked?
+__Has it worked?__
 
 Make sure that file is executable: `chmod +x /home/hduser/word_reducer.py`
 
 Run this:
 
+```
 /usr/local/hadoop/bin/hadoop fs -cat /input/count_of_monte_cristo.txt | /home/hduser/word_mapper.py | head -n 100 | sort | /home/hduser/word_reducer.py
+```
 
-If everything’s gone to plan you should see a bunch of lines and associated counts – some of them should be non-one.
+If everything’s gone to plan you should see a bunch of lines and associated counts – some of them should be non-one's.
 
-Super.
 
-Run the Mapreduce
+___Run the Mapreduce___
 
 This is what you’ve been waiting for. Well – it’s what I’ve been waiting for at least. Run this command and you’ll basically be a Hadoop hero:
 
+```
 cd /usr/local/hadoop
 bin/hadoop jar share/hadoop/tools/lib/hadoop-streaming-2.4.0.jar -files /home/hduser/word_mapper.py,/home/hduser/word_reducer.py -mapper /home/hduser/word_mapper.py -reducer /home/hduser/word_reducer.py -input /input/count_of_monte_cristo.txt -output /output
+```
 
 And off it goes – enjoy watching your mapreduce race through at what I’m sure is a barely tolerable crawl.
 
@@ -114,11 +117,15 @@ Has it worked?
 
 Run this beauty:
 
+```
 /usr/local/hadoop/bin/hadoop fs -cat /output/part-00000
+```
 
 If you see a stream of likely looking results – you’re golden. If you want to get the file out of HDFS for inspection run something like this:
 
+```
 /usr/local/hadoop/bin/hadoop fs -get /output/part-00000 /home/hduser/monte_cristo_counted.txt
 less /home/hduser/monte_cristo_counted.txt
+```
 
 Source: http://dogdogfish.com/2014/05/19/hadoop-wordcount-in-python/

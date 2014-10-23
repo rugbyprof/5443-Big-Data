@@ -1,6 +1,4 @@
-## Not Done!
-
-## Hadoop Assignment
+## Hadoop Assignment Notes
 
 ### Hadoop Cluster Setup
 

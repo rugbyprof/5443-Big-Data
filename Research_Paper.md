@@ -2,7 +2,6 @@
 
 - Find a total of 6 papers on 3 topics. 
 - A small summary (not cut an paste abstract) for each paper.
-  - More details soon.
 - And a ACM style bibliography for all 6 papers.
 
 ### Articles

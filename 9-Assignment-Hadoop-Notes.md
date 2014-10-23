@@ -38,7 +38,7 @@ Run this command from `/usr/local/hadoop/users/yourusername`:
 
 ```
 /usr/local/hadoop/bin/hadoop fs -ls /input
-``
+```
 
 ### The Mapper
 

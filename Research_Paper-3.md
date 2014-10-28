@@ -27,5 +27,5 @@ ___Next Tuesday___
 - Think ~7 pages.
 - Dr. Halverson will proof anyone's paper. 
 - I will provide instructions for getting this done soon.
-
+- Something to add
 

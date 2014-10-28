@@ -19,6 +19,7 @@ ___This Thursday___
     - Think of "teaching" your topic to someone. 
     - Give background and definitions first.
     - Choose how your going to present the information (like in my language example).
+- Put a digital copy of the above items on your github account.  
 
 ___Next Tuesday___
 

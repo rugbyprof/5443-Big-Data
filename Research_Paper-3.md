@@ -24,5 +24,7 @@ ___Next Tuesday___
 
 - We start our rough drafts
 - Think ~7 pages.
+- Dr. Halverson will proof anyone's paper. 
+- I will provide instructions for getting this done soon.
 
 

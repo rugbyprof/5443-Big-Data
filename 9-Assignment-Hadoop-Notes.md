@@ -4,7 +4,7 @@
 
 http://dogdogfish.com/2014/04/26/installing-hadoop-2-4-on-ubuntu-14-04/
 
-### Make Hadoop is Running
+### Make Sure Hadoop is Running
 
 I'm not sure how this will effect a multi user setting, but:
 

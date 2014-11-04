@@ -10,23 +10,17 @@ Define:
 
 Which database back-end should be used: relational, key–value, or something else? 
 
-
 What is the "Ultimate Database"?
 
 Four Rules of Success:
-    - Build Solutions That Scale
-    - Build Systems That Can Share Data
-    - Build Solutions Not Infrastructure
-    - Focus on Unlocking Value from Your Data
+
  
 --
 
 ### Chapter 2
 
 Describe the challenges of sharing lots of files.
-    - Choosing How to Store the Data
-    - Choosing the Right Data Format
-    - How to Present the Data
+
 
 Describe ___Infrastructure as a service___ (IAAS).
 

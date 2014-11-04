@@ -1,5 +1,7 @@
 ## Midterm Study Guide
 
+### Topics
+
 Define:
 
 - ___Big Data___
@@ -36,4 +38,10 @@ The ___Ketema algorithm___ is a hashing algorithm that provides a strategy known
 What is a major hindrance when querying ___key value stores___? Compare this to querying a typical SQL database.  
 
 What is the "Ultimate Database"?
+
+-----
+
+### Mongo & Redis
+
+
 

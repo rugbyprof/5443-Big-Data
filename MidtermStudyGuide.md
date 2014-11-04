@@ -1,6 +1,5 @@
 ## Midterm Study Guide
-
-### Topics
+#### November 11<sup>th</sup> at 5:30 p.m.
 
 Define:
 
@@ -10,8 +9,6 @@ Define:
 - ___Data Silo___
 - ___Data Wharehouse___
 - ___Data Serialization___
-
---
 
 Describe the challenges of sharing lots of files. Discuss formats, transferring over networks, size, etc.
 
@@ -25,8 +22,6 @@ Describe ___Infrastructure as a service___ (IAAS). Many companies choose to stor
 
 In general, have a good understanding of each file format, and what it may or may not be good for. 
 
---
-
 What is ___ACID___?
 
 Briefly describe the difference between the `relational` and `key value` database models. Give pros and cons for each as they apply to scalability.
@@ -38,10 +33,6 @@ The ___Ketema algorithm___ is a hashing algorithm that provides a strategy known
 What is a major hindrance when querying ___key value stores___? Compare this to querying a typical SQL database.  
 
 What is the "Ultimate Database"?
-
------
-
-### Mongo & Redis
 
 
 

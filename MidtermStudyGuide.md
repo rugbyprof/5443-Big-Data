@@ -1,7 +1,5 @@
 ## Midterm Study Guide
 
-### Chapter 1
-
 Define:
 
 - ___Distributed computing___
@@ -12,15 +10,9 @@ Which database back-end should be used: relational, key–value, or something el
 
 What is the "Ultimate Database"?
 
-Four Rules of Success:
-
- 
 --
 
-### Chapter 2
-
 Describe the challenges of sharing lots of files.
-
 
 Describe ___Infrastructure as a service___ (IAAS).
 
@@ -35,8 +27,6 @@ Many companies choose to store data in the cloud to alleviate problems with mana
 Define ___data serialization___.
 
 --
-
-### Chapter 3
 
 What is ___ACID___?
 

@@ -2,21 +2,18 @@
 
 Define:
 
+- ___Big Data___
 - ___Distributed computing___
 - ___Sharding___
 - ___Data Silo___
-
-Which database back-end should be used: relational, key–value, or something else? 
-
-What is the "Ultimate Database"?
+- ___Data Wharehouse___
+- ___Data Serialization___
 
 --
 
-Describe the challenges of sharing lots of files.
+Describe the challenges of sharing lots of files. Discuss formats, transferring over networks, size, etc.
 
-Describe ___Infrastructure as a service___ (IAAS).
-
-Many companies choose to store data in the cloud to alleviate problems with managing their own infrastructure (security, backups, etc.). Describe why the cloud may or may not necessarily be the answer to storing "big data".
+Describe ___Infrastructure as a service___ (IAAS). Many companies choose to store data in the cloud to alleviate problems with managing their own infrastructure (security, backups, etc.). Describe why the cloud may or may not necessarily be the answer to storing "big data". Give examples of problems that IAAS would alleviate for a company, as well as some problems it may cause.
 
 - File Formats
     - Json
@@ -24,7 +21,7 @@ Many companies choose to store data in the cloud to alleviate problems with mana
     - Xml
     - Yaml
 
-Define ___data serialization___.
+In general, have a good understanding of each file format, and what it may or may not be good for. 
 
 --
 
@@ -38,3 +35,4 @@ The ___Ketema algorithm___ is a hashing algorithm that provides a strategy known
 
 What is a major hindrance when querying ___key value stores___? Compare this to querying a typical SQL database.  
 
+What is the "Ultimate Database"?

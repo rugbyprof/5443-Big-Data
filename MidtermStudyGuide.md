@@ -32,7 +32,15 @@ The ___Ketema algorithm___ is a hashing algorithm that provides a strategy known
 
 What is a major hindrance when querying ___key value stores___? Compare this to querying a typical SQL database.  
 
-What is the "Ultimate Database"?
+What would be the "Ultimate Database"?
 
+-----
 
+Describe Hadoop (HDFS,MapReduce).
 
+Discuss any problems that may arise by not employing a secondary namenode?
+
+Describe why files have to be moved/ingested into HDFS before they can be processed.
+
+Lets assume that the default block size is 64 Mb and the replication factor is 3. Explain why Hadoop 
+has such a large block size (regular file systems use 1k or so) and what the replication factor means.

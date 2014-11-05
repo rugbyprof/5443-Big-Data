@@ -1,7 +1,7 @@
 ### CMPS 5443 Term Paper Assignment
 
 | Assignment                        | Due on or before  	| Percent of grade |
-|:---------------------------------:|:-------------------:|:----------------:|
+|:--------------------------------- |:-------------------:|:----------------:|
 | Topic selection	                  | Oct 3	              |       5%         |
 | Paper summary & list of references| Oct17               |	     10%         |
 | First draft	                      | Nov 15	            |      25%         |

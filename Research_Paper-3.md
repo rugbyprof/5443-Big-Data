@@ -21,11 +21,4 @@ ___This Thursday___
     - Choose how your going to present the information (like in my language example).
 - Put a digital copy of the above items on your github account.  
 
-___Next Tuesday___
-
-- We start our rough drafts
-- Think ~7 pages.
-- Dr. Halverson will proof anyone's paper. 
-- I will provide instructions for getting this done soon.
-- Something to add
 

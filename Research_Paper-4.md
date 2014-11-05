@@ -2,12 +2,12 @@
 
 | Assignment                        | Due on or before  	| Percent of grade |
 |:--------------------------------- |:-------------------:|:----------------:|
-| Topic selection	                  | Oct 3	              |       5%         |
-| Paper summary & list of references| Oct17               |	     10%         |
-| First draft	                      | Nov 15	            |      25%         |
-| Final paper                       |	Dec                 |     	60%        |
+| Topic selection	                  | Oct 21<sup>st</sup>	|       5%         |
+| Paper summary & list of references| Oct 28<sup>th</sup> |	     10%         |
+| First draft	                      | Nov 18<sup>th</sup>	|      25%         |
+| Final paper                       |	Dec 2<sup>nd</sup>  |      60%         |
 
-Follow the specifications in the document, “[Graduate Paper Format]().”  
+Follow the specifications in the document, “[Graduate Paper Format](http://cs.mwsu.edu/documents/GraduatePaperFormat.pdf).”  
 
 Additional instructions below:
 •	Paper should be 5-6 pages, not including the title page or references.

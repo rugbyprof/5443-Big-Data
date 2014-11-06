@@ -1,4 +1,5 @@
-"""
+Source: https://github.com/BurntSushi/nflgame
+
 The stats module maps statistical category identifiers from NFL.com's
 GameCenter JSON feed to a representation of what we believe that statistical
 category means. This mapping has been reverse engineered with a lot of help
@@ -39,40 +40,17 @@ the way to "I have no fucking clue."
 long contains a verbatim description from nflgsis.com. Some of the information
 clearly references legacy systems, but alas, it is included as it adds to the
 context of each statistical category.
-"""
 
-
-def values(category_id, yards):
-    """
-    Returns a dictionary of field names to statistical values for a
-    particular category id defined in idmap.
-    """
-    assert category_id in idmap, \
-        'Category identifier %d is not known.' % category_id
-    info = idmap[category_id]
-    try:
-        yards = int(yards)
-    except ValueError:
-        yards = 0
-    except TypeError:
-        #Catch errors if yards is a NoneType
-        yards = 0
-
-    vals = {}
-    if info['yds']:
-        vals[info['yds']] = yards
-    for f in info['fields']:
-        vals[f] = info.get('value', 1)
-    return vals
-
+```python
 categories = ("passing", "rushing", "receiving",
               "fumbles", "kicking", "punting", "kickret", "puntret",
               "defense", "penalty")
-"""
+```
+
 categories is a list of all statistical categories reported by NFL's
 GameCenter.
-"""
 
+```
 idmap = {
     2: {
         'cat': 'punting',
@@ -922,3 +900,4 @@ idmap = {
                 'ending in a touchback.',
     },
 }
+```

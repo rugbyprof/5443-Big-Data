@@ -101,11 +101,49 @@ for year in range(2009,2015):
 ```
 This data is available here: [nfl_stats.tar.gz](http://107.170.214.232/~griffin/nfl_mongo/nfl_stats.tar.gz)
 
-### 
+### Using Our Data
+
+At this point we have a complete NFL roster, and stats for each game played since 2009. The stats themselves are stored in more of a linear fashion within each file containing some general stats at the top, and a re-cap of the game as events happened ordered temporally.
+
+Given the data in it's current format doesn't bode well for querying. So, we have some decisions to make. Actually, you have some decisions to make. The major question is how will you store the NFL data within Mongo in order to "optimize" (that's an over statement) the following queries. Optimization is a term thrown around a lot, where our current goal is really to not "diminish" or querying ablities.
+
+### Creating Your Collections
+
+```python
+import pymongo,string,json
+import sys,os
+import requests
+
+#Link up with mongo 
+from pymongo import MongoClient
+conn = MongoClient()
+
+#Connect to your database
+db_nfl = conn.nfl
+
+#Create collections
+coll_players = db_nfl.players
+coll_games = db_nfl.games
+
+#Grab data from server
+players = requests.get('http://107.170.214.232/~griffin/nfl_mongo/nfl_stats/players.json')
+
+#loop through players
+for player in players.json():
+    _id = player                    # 'player' is actually the 'key'
+    player = players.json()[_id]    # grab data using json[key]
+    player['_id'] = _id             # place '_id' in the player object
+    coll_players.insert(player)     # insert into db
+```
+
 
 - Create collections of teams and players.
 
-
 1. Find the leading rusher in a given year. 
 2. Find the team with the most fumbles.
+
+db.nfl.find()           # Generic find all query
+db.nfl.remove()         # Removes the nfl db from mongo
+db.getCollectionNames() # Showes all collections in mongo
+db.collections.stats()  # Gives you information on your collection (I used it to make sure I was adding proper number of entries)
 

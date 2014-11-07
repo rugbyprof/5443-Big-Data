@@ -8,7 +8,7 @@
 ## Loading the data
 
 - Create collections of teams and players.
-- 
+
 
 1. Find the leading rusher in a given year. 
 2. Find the team with the most fumbles.

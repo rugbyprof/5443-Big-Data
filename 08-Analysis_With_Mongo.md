@@ -147,4 +147,38 @@ db.nfl.find()           # Generic find all query
 db.nfl.remove()         # Removes the nfl db from mongo
 db.getCollectionNames() # Showes all collections in mongo
 db.collections.stats()  # Gives you information on your collection (I used it to make sure I was adding proper number of entries)
+db.players.find({"last_name":"Griffin"}).pretty()
+```python
 
+	"_id" : "00-0029857",
+	"first_name" : "Ryan",
+	"last_name" : "Griffin",
+	"gsis_id" : "00-0029857",
+	"weight" : 210,
+	"years_pro" : 2,
+	"profile_id" : 2541185,
+	"number" : 4,
+	"birthdate" : "11/17/1989",
+	"height" : 77,
+	"college" : "Tulane",
+	"full_name" : "Ryan Griffin",
+	"gsis_name" : "R.Griffin",
+	"profile_url" : "http://www.nfl.com/player/ryangriffin/2541185/profile"
+}
+{
+	"_id" : "00-0028377",
+	"first_name" : "John",
+	"last_name" : "Griffin",
+	"gsis_id" : "00-0028377",
+	"weight" : 208,
+	"years_pro" : 2,
+	"profile_id" : 2530842,
+	"number" : 24,
+	"birthdate" : "12/17/1988",
+	"height" : 71,
+	"college" : "Massachusetts",
+	"full_name" : "John Griffin",
+	"gsis_name" : "J.Griffin",
+	"profile_url" : "http://www.nfl.com/player/johngriffin/2530842/profile"
+}
+```

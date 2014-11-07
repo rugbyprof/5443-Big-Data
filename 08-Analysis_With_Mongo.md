@@ -99,8 +99,9 @@ for year in range(2009,2015):
                     f2.close();
             f1.close();
 ```
+This data is available here: [nfl_stats.tar.gz](http://107.170.214.232/~griffin/nfl_mongo/nfl_stats.tar.gz)
 
-- http://107.170.214.232/~griffin/nfl_mongo/nfl_stats.tar.gz
+### 
 
 - Create collections of teams and players.
 

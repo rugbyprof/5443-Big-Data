@@ -17,38 +17,7 @@ There is probably much more available, but for what we need, this is sufficient.
 ### Roster & Players
 
 Using a file I found at [BurntSushi](https://github.com/BurntSushi), I've made available all the players for you to insert into your Mongo database. It is available here: [Players.json](http://107.170.214.232/~griffin/nfl_mongo/nfl_stats/players.json). A sample can be seen below.
-```json
-[
-    00-0003035: {
-        birthdate: "4/20/1977",
-        college: "Wake Forest",
-        first_name: "Desmond",
-        full_name: "Desmond Clark",
-        gsis_id: "00-0003035",
-        gsis_name: "D.Clark",
-        height: 75,
-        last_name: "Clark",
-        profile_id: 2500080,
-        profile_url: "http://www.nfl.com/player/desmondclark/2500080/profile",
-        weight: 249,
-        years_pro: 13
-    },
-    00-0003239: {
-        birthdate: "8/16/1976",
-        college: "East Carolina",
-        first_name: "Rod",
-        full_name: "Rod Coleman",
-        gsis_id: "00-0003239",
-        gsis_name: "R.Coleman",
-        height: 74,
-        last_name: "Coleman",
-        profile_id: 2500137,
-        profile_url: "http://www.nfl.com/player/rodcoleman/2500137/profile",
-        weight: 285,
-        years_pro: 10
-    }
-]
-```
+
 
 ### Game Stats
 
@@ -148,8 +117,8 @@ for player in players.json():
 | db.nfl.find()           | # Generic find all query                     |
 | db.nfl.remove()         | # Removes the nfl db from mongo              |
 | db.getCollectionNames() | # Showes all collections in mongo            |
-| db.collections.stats()  | # Gives you information on your collection (I used it to make sure I was adding proper number of entries) |
-| db.players.find({"last_name":"Griffin"}).pretty() | See below  |
+| db.collections.stats()  | # Gives you information on your collection (I used it to make sure I was adding proper number of entries). |
+| db.players.find({"last_name":"Griffin"}).pretty() | Finds all players with last name 'Griffin' and prints it in a formatted way.|
 
 ```python
 

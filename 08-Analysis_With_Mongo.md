@@ -1,16 +1,24 @@
-## Analysis With MongoDB
+## NFL Analysis With MongoDB
 
 Thanks to [BurntSushi](https://github.com/BurntSushi) for providing some really cool repo's.
 
+### Data Sources
 
-- http://www.nfl.com/liveupdate/game-center/2011111301/2011111301_gtd.json
-- http://www.nfl.com/ajax/scorestrip?season=2014&seasonType=REG&week=13
+The NFL provides data through a couple of public api's that is available here:
+
+1. http://www.nfl.com/ajax/scorestrip?season=2014&seasonType=REG&week=13
+2. http://www.nfl.com/liveupdate/game-center/2011111301/2011111301_gtd.json
+3. http://www.nfl.com/teams/roster?team=DAL
+4. http://www.nfl.com/players/profile?id=2505629
+
+There is probably much more available, but for what we need, this is sufficient. 
+
 
 - http://107.170.214.232/~griffin/nfl_mongo/nfl_stats.tar.gz
 
 ## Loading the data
 
-Below is an example file of NFL players. It is available here: http://107.170.214.232/~griffin/nfl_mongo/nfl_stats/players.json
+Below is an example file of NFL players. It is available here: [Players.json](http://107.170.214.232/~griffin/nfl_mongo/nfl_stats/players.json)
 ```json
 [
     00-0003035: {

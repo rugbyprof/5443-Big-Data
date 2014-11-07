@@ -1,5 +1,8 @@
 ## Analysis With MongoDB
 
+Thanks to [BurntSushi](https://github.com/BurntSushi) for providing some really cool repo's.
+
+
 - http://www.nfl.com/liveupdate/game-center/2011111301/2011111301_gtd.json
 - http://www.nfl.com/ajax/scorestrip?season=2014&seasonType=REG&week=13
 
@@ -7,6 +10,7 @@
 
 ## Loading the data
 
+Below is an example file of NFL players. It is available here: http://107.170.214.232/~griffin/nfl_mongo/nfl_stats/players.json
 ```json
 [
     00-0003035: {

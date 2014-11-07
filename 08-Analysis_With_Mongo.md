@@ -143,11 +143,14 @@ for player in players.json():
 1. Find the leading rusher in a given year. 
 2. Find the team with the most fumbles.
 
-db.nfl.find()           # Generic find all query
-db.nfl.remove()         # Removes the nfl db from mongo
-db.getCollectionNames() # Showes all collections in mongo
-db.collections.stats()  # Gives you information on your collection (I used it to make sure I was adding proper number of entries)
-db.players.find({"last_name":"Griffin"}).pretty()
+| Command                 |                                              |
+|:------------------------|:---------------------------------------------|
+| db.nfl.find()           | # Generic find all query                     |
+| db.nfl.remove()         | # Removes the nfl db from mongo              |
+| db.getCollectionNames() | # Showes all collections in mongo            |
+| db.collections.stats()  | # Gives you information on your collection (I used it to make sure I was adding proper number of entries) |
+| db.players.find({"last_name":"Griffin"}).pretty() | See below  |
+
 ```python
 
 	"_id" : "00-0029857",

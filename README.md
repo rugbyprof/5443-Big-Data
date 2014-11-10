@@ -35,7 +35,7 @@ Book available here: http://www.coursesmart.com/IR/970041/9780133805543?__hdv=6.
 | 5 |                    | [Assignment 5][5]  | [Mongo Redis Intro][5] |
 | 6 | 23 Sep 2014 @ 2359 | [Assignment 6][6]  | [Json File Processing][6] |
 | 7 | 07 Oct 2014 @ 2359 | [Assignment 7][7]  | [Analysis w/ Redis][7] |
-| 8 | Pending             | [Assignment 8][8]  | [Analysis w/ Mnogo][8] |
+| 8 | Pending             | [Assignment 8][8]  | [Analysis w/ Mongo][8] |
 
 [1]: https://github.com/rugbyprof/5443-Big-Data/blob/master/01-Github.md "Assignment 1"
 [2]: https://github.com/rugbyprof/5443-Big-Data/blob/master/02-DigitalOcean.md "Assignment 2"

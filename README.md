@@ -26,20 +26,25 @@ Book available here: http://www.coursesmart.com/IR/970041/9780133805543?__hdv=6.
 
 ### Assignments
 
-| # | Due              | Category           | Description                 |
-|---|------------------|--------------------|-----------------------------|
+| # | Due              | Category           | Description               |
+|---|------------------|--------------------|---------------------------|
 | 1 | 28 Aug 2014 @ 1200 | [Assignment 1][1]  | [Register w/ Github][1]   |
 | 2 | 31 Aug 2014 @ 2359 | [Assignment 2][2]  | [Digital Ocean Server][2] |
-| 3 | 11 Sep 2014 @ 1730 | [Assignment 3][3]  | [File_Formats][3]         |
-| 4 | 16 Sep 2014 @ 2359 | [Assignment 4][4]  | [Install Hadoop][4]       |
-| 5 | 23 Sep 2014 @ 2359 | [Assignment 5][5]  | [Json File Processing][5] |
+| 3 | 11 Sep 2014 @ 1730 | [Assignment 3][3]  | [File_Formats][3]   |
+| 4 | 16 Sep 2014 @ 2359 | [Assignment 4][4]  | [Install Hadoop][4] |
+| 5 |                    | [Assignment 5][5]  | [Mongo Redis Intro][5] |
+| 6 | 23 Sep 2014 @ 2359 | [Assignment 6][6]  | [Json File Processing][6] |
+| 7 | 07 Oct 2014 @ 2359 | [Assignment 7][7]  | [Analysis w/ Redis][7] |
+| 8 | Pending             | [Assignment 8][8]  | [Analysis w/ Mnogo][8] |
 
 [1]: https://github.com/rugbyprof/5443-Big-Data/blob/master/01-Github.md "Assignment 1"
 [2]: https://github.com/rugbyprof/5443-Big-Data/blob/master/02-DigitalOcean.md "Assignment 2"
 [3]: https://github.com/rugbyprof/5443-Big-Data/blob/master/03-File_Formats.md "Assignment 3"
 [4]: https://github.com/rugbyprof/5443-Big-Data/blob/master/04-Hadoop_Installation.md "Assignment 4"
-[5]: https://github.com/rugbyprof/5443-Big-Data/blob/master/06-Json_File_Processing.md "Assignment 5"
-
+[5]: https://github.com/rugbyprof/5443-Big-Data/blob/master/05-Redis_Mongo_Tutorial.md "Assignment 5"
+[6]: https://github.com/rugbyprof/5443-Big-Data/blob/master/06-Json_File_Processing.md "Assignment 6"
+[7]: https://github.com/rugbyprof/5443-Big-Data/blob/master/07-Analysis_With_Redis.md "Assignment 7"
+[8]: https://github.com/rugbyprof/5443-Big-Data/blob/master/08-Analysis_With_Mongo.md "Assignment 8"
 ## Course Members
 
 

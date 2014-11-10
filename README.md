@@ -24,17 +24,21 @@ Book available here: http://www.coursesmart.com/IR/970041/9780133805543?__hdv=6.
 
 ### Assignments
 
-| # | Due              | Category           | Description               |
-|---|------------------|--------------------|---------------------------|
+### Assignments
+
+| # | Due              | Category           | Description                 |
+|---|------------------|--------------------|-----------------------------|
 | 1 | 28 Aug 2014 @ 1200 | [Assignment 1][1]  | [Register w/ Github][1]   |
 | 2 | 31 Aug 2014 @ 2359 | [Assignment 2][2]  | [Digital Ocean Server][2] |
-| 3 | 28 Aug 2014 @ 1200 | [Assignment 3][3]  | [Installing Hadoop][3]   |
-| 4 | 31 Aug 2014 @ 2359 | [Assignment 4][4]  | [MongoDb & Redis][4] |
+| 3 | 11 Sep 2014 @ 1730 | [Assignment 3][3]  | [File_Formats][3]         |
+| 4 | 16 Sep 2014 @ 2359 | [Assignment 4][4]  | [Install Hadoop][4]       |
+| 5 | 23 Sep 2014 @ 2359 | [Assignment 5][5]  | [Json File Processing][5] |
 
-[1]: https://github.com/rugbyprof/5443-Big-Data/blob/master/Assignment-1.md "Assignment 1"
-[2]: https://github.com/rugbyprof/5443-Big-Data/blob/master/Assignment-2.md "Assignment 2"
-[3]: https://github.com/rugbyprof/5443-Big-Data/blob/master/Assignment-3.md "Assignment 3"
-[4]: https://github.com/rugbyprof/5443-Big-Data/blob/master/Assignment-4.md "Assignment 4"
+[1]: https://github.com/rugbyprof/5443-Big-Data/blob/master/01-Github.md "Assignment 1"
+[2]: https://github.com/rugbyprof/5443-Big-Data/blob/master/02-DigitalOcean.md "Assignment 2"
+[3]: https://github.com/rugbyprof/5443-Big-Data/blob/master/03-File_Formats.md "Assignment 3"
+[4]: https://github.com/rugbyprof/5443-Big-Data/blob/master/04-Hadoop_Installation.md "Assignment 4"
+[5]: https://github.com/rugbyprof/5443-Big-Data/blob/master/06-Json_File_Processing.md "Assignment 5"
 
 ## Course Members
 

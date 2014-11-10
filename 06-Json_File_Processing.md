@@ -1,4 +1,5 @@
 ## File Cleansing and Loading
+Due 23 Sep 2014 By classtime.
 
 This is a small walk through that prepares us to use python to load json data into a `Redis` key value store. As of now, it's really an assignment to remove the "bad" characters that are plaguing our json data. After we get over that hurdle, then we can load the data into `Redis`.
 

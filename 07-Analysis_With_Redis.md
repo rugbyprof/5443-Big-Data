@@ -1,4 +1,4 @@
-## Processing a file with Redis
+## Using Redis
 
 Due Thursday 7 October.
 

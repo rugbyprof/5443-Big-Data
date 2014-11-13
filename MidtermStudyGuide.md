@@ -28,7 +28,7 @@ Briefly describe the difference between the `relational` and `key value` databas
 
 When storing a dataset across multiple server instances, a ___sharding strategy___ needs to be chosen. Describe what this means, and give examples.
 
-The ___Ketema algorithm___ is a hashing algorithm that provides a strategy known as ___consistent hashing___. Explain in detail what `consistent hashing` is, how the `Ketema algorithm` works, and what they can be applied to.
+The ___Ketama algorithm___ is a hashing algorithm that provides a strategy known as ___consistent hashing___. Explain in detail what `consistent hashing` is, how the `Ketama algorithm` works, and what they can be applied to.
 
 What is a major hindrance when querying ___key value stores___? Compare this to querying a typical SQL database.  
 

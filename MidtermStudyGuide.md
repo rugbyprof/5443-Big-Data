@@ -1,6 +1,7 @@
 ## Midterm Study Guide
 #### November 11<sup>th</sup> at 5:30 p.m.
 
+### Part 1
 Define:
 
 1.  ___Big Data___
@@ -10,7 +11,8 @@ Define:
 - ___Data Wharehouse___
 - ___Data Serialization___
 
-7. Describe the challenges of sharing lots of files. Discuss formats, transferring over networks, size, etc.
+### Part 2
+1. Describe the challenges of sharing lots of files. Discuss formats, transferring over networks, size, etc.
 
 8. Describe ___Infrastructure as a service___ (IAAS). Many companies choose to store data in the cloud to alleviate problems with managing their own infrastructure (security, backups, etc.). Describe why the cloud may or may not necessarily be the answer to storing "big data". Give examples of problems that IAAS would alleviate for a company, as well as some problems it may cause.
 
@@ -31,7 +33,7 @@ Define:
 
 15. What would be the "Ultimate Database"?
 
------
+### Part 2
 
 16. Describe Hadoop (HDFS,MapReduce).
 

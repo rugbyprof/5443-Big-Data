@@ -5,7 +5,7 @@
 | Topic selection	                  | Oct 21<sup>st</sup>	|       5%         |
 | Paper summary & list of references| Oct 28<sup>th</sup> |	     10%         |
 | First draft	                      | Dec 2<sup>nd</sup>	|      25%         |
-| Final paper                       |	Dec 9<sup>nd</sup>  |      60%         |
+| Final paper                       |	Dec 9<sup>th</sup>  |      60%         |
 
 Follow the specifications in the document, “[Graduate Paper Format](http://cs.mwsu.edu/documents/GraduatePaperFormat.pdf).”  
 

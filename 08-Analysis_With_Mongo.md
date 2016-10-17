@@ -1,4 +1,3 @@
-NOT DONE! ALMOST
 ## NFL Analysis With MongoDB
 
 Thanks to [BurntSushi](https://github.com/BurntSushi) for providing some really cool repo's.
